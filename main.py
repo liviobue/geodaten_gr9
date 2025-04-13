@@ -300,27 +300,89 @@ def create_heatmap(data, weight_column, hotspots=None, publicity=None):
     # Create a base map centered on Switzerland
     m = folium.Map(location=[46.8, 8.2], zoom_start=8)
     
-    # Add municipality choropleth
+    # Add municipality choropleth as a base layer
     folium.Choropleth(
         geo_data=data.__geo_interface__,
         data=data,
-        columns=['region_id', weight_column],
-        key_on='feature.properties.region_id',
+        columns=['id', weight_column],  # Make sure this matches your data columns
+        key_on='feature.properties.id',
         fill_color='YlOrRd',
-        fill_opacity=0.7,
+        fill_opacity=0.5,
         line_opacity=0.2,
         legend_name=f'Weight for {weight_column}'
     ).add_to(m)
     
-    # Add hotspots if provided
+    # Create heatmap data - we need to convert polygon data to points with weights
+    heatmap_data = []
+    
+    # Add centroids of municipalities with their weights to the heatmap
+    for idx, row in data.iterrows():
+        try:
+            # Use centroid of each municipality
+            centroid = row.geometry.centroid
+            # Get weight value - handle potential missing values
+            if weight_column in row and pd.notnull(row[weight_column]):
+                weight = float(row[weight_column])  # Ensure it's a float
+            else:
+                weight = 0.5  # Default weight
+            
+            # Add point with its weight
+            heatmap_data.append([float(centroid.y), float(centroid.x), weight])
+        except Exception as e:
+            print(f"Error processing row {idx}: {e}")
+            continue
+    
+    # Add hotspots with high weight if provided
     if hotspots is not None:
         for _, row in hotspots.iterrows():
-            # Check geometry type and get coordinates appropriately
+            try:
+                if row.geometry.geom_type == 'Point':
+                    location = [float(row.geometry.y), float(row.geometry.x)]
+                else:
+                    centroid = row.geometry.centroid
+                    location = [float(centroid.y), float(centroid.x)]
+                # Give hotspots a high weight
+                heatmap_data.append([location[0], location[1], 0.8])
+            except Exception as e:
+                print(f"Error processing hotspot: {e}")
+                continue
+    
+    # Add publicity locations with medium weight if provided
+    if publicity is not None:
+        for _, row in publicity.iterrows():
+            try:
+                if row.geometry.geom_type == 'Point':
+                    location = [float(row.geometry.y), float(row.geometry.x)]
+                else:
+                    centroid = row.geometry.centroid
+                    location = [float(centroid.y), float(centroid.x)]
+                # Give publicity locations a medium weight
+                heatmap_data.append([location[0], location[1], 0.6])
+            except Exception as e:
+                print(f"Error processing publicity location: {e}")
+                continue
+    
+    # Add the actual heatmap layer if we have data
+    if heatmap_data:
+        try:
+            HeatMap(
+                data=heatmap_data,  # Explicitly name the parameter
+                radius=15,
+                max_zoom=13,
+                min_opacity=0.5,
+                blur=10
+            ).add_to(m)
+        except Exception as e:
+            print(f"Error creating heatmap: {e}")
+    else:
+        print("No heatmap data available")
+    
+    # Add markers for hotspots
+    if hotspots is not None:
+        for _, row in hotspots.iterrows():
             if row.geometry.geom_type == 'Point':
-                # For Point geometries, use x and y
                 location = [row.geometry.y, row.geometry.x]
             else:
-                # For other geometries (like Polygon), use the centroid
                 centroid = row.geometry.centroid
                 location = [centroid.y, centroid.x]
                 
@@ -333,15 +395,12 @@ def create_heatmap(data, weight_column, hotspots=None, publicity=None):
                 fill_opacity=0.7
             ).add_to(m)
     
-    # Add publicity locations if provided - apply the same fix here
+    # Add markers for publicity locations
     if publicity is not None:
         for _, row in publicity.iterrows():
-            # Check geometry type and get coordinates appropriately
             if row.geometry.geom_type == 'Point':
-                # For Point geometries, use x and y
                 location = [row.geometry.y, row.geometry.x]
             else:
-                # For other geometries (like Polygon), use the centroid
                 centroid = row.geometry.centroid
                 location = [centroid.y, centroid.x]
                 
