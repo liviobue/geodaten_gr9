@@ -1,0 +1,7790 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-04-06T17:49:15Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1164536603",
+        "advertising": "sign",
+        "area": "yes",
+        "name": "Faido"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              8.7940017,
+              46.4762013
+            ],
+            [
+              8.7939982,
+              46.4761438
+            ],
+            [
+              8.7940227,
+              46.476143
+            ],
+            [
+              8.7940262,
+              46.4762006
+            ],
+            [
+              8.7940017,
+              46.4762013
+            ]
+          ]
+        ]
+      },
+      "id": "way/1164536603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/409574142",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6016197,
+            47.4024654
+          ],
+          [
+            8.6016528,
+            47.4024744
+          ]
+        ]
+      },
+      "id": "way/409574142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/409574143",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6016727,
+            47.4024692
+          ],
+          [
+            8.6016859,
+            47.4024475
+          ]
+        ]
+      },
+      "id": "way/409574143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/488017611",
+        "advertising": "billboard",
+        "lit": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.683544,
+            47.5146761
+          ],
+          [
+            8.6835662,
+            47.5146969
+          ]
+        ]
+      },
+      "id": "way/488017611"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/488017613",
+        "advertising": "billboard",
+        "lit": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6837123,
+            47.5145923
+          ],
+          [
+            8.6837338,
+            47.5146095
+          ]
+        ]
+      },
+      "id": "way/488017613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/488017617",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.6801874,
+            47.5161739
+          ],
+          [
+            8.6801997,
+            47.5162001
+          ]
+        ]
+      },
+      "id": "way/488017617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/615401275",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.5048379,
+            47.4056529
+          ],
+          [
+            8.5049697,
+            47.4057048
+          ]
+        ]
+      },
+      "id": "way/615401275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/863797537",
+        "advertising": "billboard",
+        "support": "ground",
+        "visibility": "area"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.611334,
+            47.255724
+          ],
+          [
+            8.6113922,
+            47.2557065
+          ]
+        ]
+      },
+      "id": "way/863797537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/902372420",
+        "advertising": "billboard",
+        "barrier": "wall",
+        "name": "Frauenfelder Kulturblase",
+        "operator": "Frauenfeld fordert Kultur"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.8957038,
+            47.5564232
+          ],
+          [
+            8.8957472,
+            47.5563905
+          ]
+        ]
+      },
+      "id": "way/902372420"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1086818604",
+        "advertising": "billboard",
+        "animated": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.5352175,
+            46.8461018
+          ],
+          [
+            9.5352683,
+            46.846073
+          ]
+        ]
+      },
+      "id": "way/1086818604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1100685060",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.078624,
+            47.3460379
+          ],
+          [
+            9.0785686,
+            47.3460003
+          ]
+        ]
+      },
+      "id": "way/1100685060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1100696524",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.0777499,
+            47.3498749
+          ],
+          [
+            9.07778,
+            47.3498885
+          ]
+        ]
+      },
+      "id": "way/1100696524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1115617132",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.0813159,
+            47.3457453
+          ],
+          [
+            9.0813137,
+            47.3457006
+          ]
+        ]
+      },
+      "id": "way/1115617132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202627933",
+        "advertising": "billboard",
+        "wikimedia_commons": "File:2023-07-01_Zugerstrasse_02.jpg"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.5198467,
+            47.1827938
+          ],
+          [
+            8.5198775,
+            47.18279
+          ]
+        ]
+      },
+      "id": "way/1202627933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1202627934",
+        "advertising": "billboard",
+        "wikimedia_commons": "File:2023-07-01_Zugerstrasse_02.jpg"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.519888,
+            47.1827875
+          ],
+          [
+            8.5199188,
+            47.1827836
+          ]
+        ]
+      },
+      "id": "way/1202627934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1240810152",
+        "advertising": "billboard",
+        "animated": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.7288803,
+            47.4045405
+          ],
+          [
+            8.7288695,
+            47.4045183
+          ]
+        ]
+      },
+      "id": "way/1240810152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/569931273",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2022-07-11",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5377264,
+          47.3803348
+        ]
+      },
+      "id": "node/569931273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1424453279",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8992167,
+          47.5642465
+        ]
+      },
+      "id": "node/1424453279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1718034684",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8995971,
+          47.5601616
+        ]
+      },
+      "id": "node/1718034684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3184143818",
+        "advertising": "column",
+        "check_date": "2021-07-09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.481102,
+          47.6521479
+        ]
+      },
+      "id": "node/3184143818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3309580468",
+        "advertising": "column",
+        "lit": "no",
+        "source": "Position: Orthophoto: www.geoimage.at (c), advertising: local knowlege"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7466509,
+          47.4137035
+        ]
+      },
+      "id": "node/3309580468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3802388275",
+        "advertising": "column",
+        "check_date": "2022-01-16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3245514,
+          47.054814
+        ]
+      },
+      "id": "node/3802388275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3803948027",
+        "advertising": "column",
+        "check_date": "2022-06-18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5127734,
+          47.1704728
+        ]
+      },
+      "id": "node/3803948027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3804281748",
+        "advertising": "column",
+        "check_date": "2022-05-10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5144118,
+          47.1674452
+        ]
+      },
+      "id": "node/3804281748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3804621495",
+        "advertising": "column",
+        "check_date": "2022-06-18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5143564,
+          47.1647457
+        ]
+      },
+      "id": "node/3804621495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3824202469",
+        "advertising": "column",
+        "check_date": "2022-09-09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5320459,
+          47.3612232
+        ]
+      },
+      "id": "node/3824202469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3950724079",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8870667,
+          47.5986334
+        ]
+      },
+      "id": "node/3950724079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3952702809",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8823947,
+          47.5971763
+        ]
+      },
+      "id": "node/3952702809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4076654723",
+        "advertising": "sculpture",
+        "colour": "red",
+        "description": "Chair",
+        "lit": "yes",
+        "name": "Wohnland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6020128,
+          47.4023062
+        ]
+      },
+      "id": "node/4076654723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4097815607",
+        "advertising": "flag",
+        "flag:type": "advertising",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6022918,
+          47.4017927
+        ]
+      },
+      "id": "node/4097815607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4097815608",
+        "advertising": "flag",
+        "flag:type": "advertising",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6022762,
+          47.4017676
+        ]
+      },
+      "id": "node/4097815608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4097815609",
+        "advertising": "flag",
+        "flag:type": "advertising",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6022604,
+          47.4017409
+        ]
+      },
+      "id": "node/4097815609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4104725454",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6026099,
+          47.4023412
+        ]
+      },
+      "id": "node/4104725454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4114637852",
+        "advertising": "flag",
+        "flag:type": "advertising",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6025991,
+          47.4017977
+        ]
+      },
+      "id": "node/4114637852"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4114637853",
+        "advertising": "flag",
+        "flag:type": "advertising",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6025612,
+          47.4018077
+        ]
+      },
+      "id": "node/4114637853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4114637854",
+        "advertising": "flag",
+        "flag:type": "advertising",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6025368,
+          47.4017867
+        ]
+      },
+      "id": "node/4114637854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4198332940",
+        "advertising": "column",
+        "check_date": "2025-03-18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5472723,
+          47.4185921
+        ]
+      },
+      "id": "node/4198332940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4311922993",
+        "advertising": "column",
+        "check_date": "2024-07-21"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2865842,
+          47.4062162
+        ]
+      },
+      "id": "node/4311922993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4345544389",
+        "advertising": "column",
+        "source": "http://mapillary.com/map/im/xQWYT6-jT_uUmTRVJgCEDA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.564734,
+          47.3654724
+        ]
+      },
+      "id": "node/4345544389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4439271966",
+        "advertising": "column",
+        "check_date": "2023-05-16"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.849537,
+          47.2575122
+        ]
+      },
+      "id": "node/4439271966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4456693161",
+        "advertising": "sign",
+        "man_made": "mast"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7625077,
+          47.4978131
+        ]
+      },
+      "id": "node/4456693161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4464554293",
+        "advertising": "column",
+        "check_date": "2023-04-11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1718978,
+          47.6609738
+        ]
+      },
+      "id": "node/4464554293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4464788511",
+        "advertising": "column",
+        "check_date": "2021-07-19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1745726,
+          47.6578827
+        ]
+      },
+      "id": "node/4464788511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4464788518",
+        "advertising": "column",
+        "check_date": "2024-03-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1765565,
+          47.6604139
+        ]
+      },
+      "id": "node/4464788518"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4465156992",
+        "advertising": "column",
+        "check_date": "2021-10-02"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2810552,
+          47.3879469
+        ]
+      },
+      "id": "node/4465156992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4465577498",
+        "advertising": "column",
+        "check_date": "2023-04-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2761468,
+          47.4051816
+        ]
+      },
+      "id": "node/4465577498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4465577530",
+        "advertising": "column",
+        "check_date": "2024-10-18"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2776887,
+          47.4059312
+        ]
+      },
+      "id": "node/4465577530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4575138288",
+        "advertising": "flag",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4442206,
+          46.6395714
+        ]
+      },
+      "id": "node/4575138288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4575144589",
+        "advertising": "flag",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4441978,
+          46.6395677
+        ]
+      },
+      "id": "node/4575144589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4575144590",
+        "advertising": "flag",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.444175,
+          46.6395617
+        ]
+      },
+      "id": "node/4575144590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4575144591",
+        "advertising": "flag",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4421462,
+          46.6303272
+        ]
+      },
+      "id": "node/4575144591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4575144592",
+        "advertising": "flag",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4421275,
+          46.6303382
+        ]
+      },
+      "id": "node/4575144592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4575144593",
+        "advertising": "flag",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4421074,
+          46.6303497
+        ]
+      },
+      "id": "node/4575144593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4587222142",
+        "advertising": "billboard",
+        "name": "CASPOGGIO"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8504017,
+          46.2583127
+        ]
+      },
+      "id": "node/4587222142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4678288026",
+        "advertising": "column",
+        "check_date": "2023-06-30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7276632,
+          47.502746
+        ]
+      },
+      "id": "node/4678288026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4678494008",
+        "advertising": "column",
+        "check_date": "2021-06-05"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7319167,
+          47.5054522
+        ]
+      },
+      "id": "node/4678494008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4678821455",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7411069,
+          47.5025136
+        ]
+      },
+      "id": "node/4678821455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4679217862",
+        "advertising": "column",
+        "check_date": "2023-07-07"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7481021,
+          47.5057925
+        ]
+      },
+      "id": "node/4679217862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4698155953",
+        "advertising": "column",
+        "check_date": "2023-04-04"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2869561,
+          47.4044108
+        ]
+      },
+      "id": "node/4698155953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4825725037",
+        "advertising": "column",
+        "check_date": "2023-05-09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6931229,
+          47.5104804
+        ]
+      },
+      "id": "node/4825725037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4954892415",
+        "advertising": "screen",
+        "information": "terminal",
+        "operator": "Goldbach Neo OOH",
+        "tourism": "information"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5243291,
+          47.3711909
+        ]
+      },
+      "id": "node/4954892415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4985500223",
+        "advertising": "pillar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7224592,
+          47.5034456
+        ]
+      },
+      "id": "node/4985500223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4985500224",
+        "advertising": "totem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7255848,
+          47.5009558
+        ]
+      },
+      "id": "node/4985500224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4993281997",
+        "advertising": "flag",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6832465,
+          47.5641824
+        ]
+      },
+      "id": "node/4993281997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4993281998",
+        "advertising": "flag",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6832593,
+          47.5642025
+        ]
+      },
+      "id": "node/4993281998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4993281999",
+        "advertising": "flag",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6832721,
+          47.5642214
+        ]
+      },
+      "id": "node/4993281999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5020314513",
+        "advertising": "board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6941869,
+          47.5107517
+        ]
+      },
+      "id": "node/5020314513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5054363248",
+        "advertising": "flag",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6919138,
+          47.5104565
+        ]
+      },
+      "id": "node/5054363248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5054363249",
+        "advertising": "flag",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.691907,
+          47.5104318
+        ]
+      },
+      "id": "node/5054363249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5054363250",
+        "advertising": "flag",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6918992,
+          47.5104033
+        ]
+      },
+      "id": "node/5054363250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5054363251",
+        "advertising": "totem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6918739,
+          47.5105182
+        ]
+      },
+      "id": "node/5054363251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5054363676",
+        "advertising": "totem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6895203,
+          47.5116028
+        ]
+      },
+      "id": "node/5054363676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5150747961",
+        "advertising": "totem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7216012,
+          47.5038026
+        ]
+      },
+      "id": "node/5150747961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5150747962",
+        "advertising": "totem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7221984,
+          47.5039659
+        ]
+      },
+      "id": "node/5150747962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5225033190",
+        "advertising": "column",
+        "check_date": "2022-04-23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3103338,
+          47.0569476
+        ]
+      },
+      "id": "node/5225033190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5280876224",
+        "advertising": "billboard",
+        "direction": "318"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0136197,
+          47.1669231
+        ]
+      },
+      "id": "node/5280876224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5315190521",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.252453,
+          47.4119607
+        ]
+      },
+      "id": "node/5315190521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5522497579",
+        "advertising": "column",
+        "check_date": "2022-05-30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5436214,
+          47.3896479
+        ]
+      },
+      "id": "node/5522497579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5615723311",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.55857,
+          47.3823739
+        ]
+      },
+      "id": "node/5615723311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5647920997",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2022-06-09",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4813461,
+          47.405336
+        ]
+      },
+      "id": "node/5647920997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5669798315",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2022-08-11",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5413866,
+          47.397188
+        ]
+      },
+      "id": "node/5669798315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5669798316",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2024-09-04",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5854217,
+          47.4070455
+        ]
+      },
+      "id": "node/5669798316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5669798318",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5858424,
+          47.4068437
+        ]
+      },
+      "id": "node/5669798318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5672034046",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2022-10-24",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.559857,
+          47.3765905
+        ]
+      },
+      "id": "node/5672034046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5685002996",
+        "advertising": "column",
+        "animated": "rotating",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5445216,
+          47.4109605
+        ]
+      },
+      "id": "node/5685002996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696522423",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2022-09-15",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5404369,
+          47.3767975
+        ]
+      },
+      "id": "node/5696522423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5710994974",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2024-05-29",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5453912,
+          47.4171508
+        ]
+      },
+      "id": "node/5710994974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5713445032",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2023-01-05",
+        "lit": "yes",
+        "operator": "APG SGA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5225922,
+          47.3599836
+        ]
+      },
+      "id": "node/5713445032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5719731667",
+        "advertising": "column",
+        "animated": "rotating",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5928912,
+          47.3593701
+        ]
+      },
+      "id": "node/5719731667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5725413923",
+        "advertising": "column",
+        "check_date": "2023-04-02"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5045678,
+          47.3940189
+        ]
+      },
+      "id": "node/5725413923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5725414037",
+        "advertising": "column",
+        "animated": "rotating",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5049636,
+          47.3940039
+        ]
+      },
+      "id": "node/5725414037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5725710596",
+        "advertising": "column",
+        "check_date": "2025-03-19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5236682,
+          47.3899179
+        ]
+      },
+      "id": "node/5725710596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5733043749",
+        "advertising": "column",
+        "animated": "rotating",
+        "lit": "yes",
+        "operator": "APG SGA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5107654,
+          47.3784883
+        ]
+      },
+      "id": "node/5733043749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5743444950",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2023-05-12",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5110066,
+          47.389733
+        ]
+      },
+      "id": "node/5743444950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5747416051",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2022-10-03",
+        "lit": "yes",
+        "operator": "APG SGA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5332944,
+          47.3975924
+        ]
+      },
+      "id": "node/5747416051"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5753954807",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2022-10-13",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.526218,
+          47.3718331
+        ]
+      },
+      "id": "node/5753954807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5760276242",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2023-03-17",
+        "lit": "yes",
+        "operator": "APG SGA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5523042,
+          47.4107713
+        ]
+      },
+      "id": "node/5760276242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5760276246",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2024-09-04",
+        "lit": "yes",
+        "operator": "APG SGA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5695932,
+          47.410567
+        ]
+      },
+      "id": "node/5760276246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5760276247",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2023-02-14",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5506518,
+          47.4105272
+        ]
+      },
+      "id": "node/5760276247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5760276265",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2024-05-31",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5469279,
+          47.4137049
+        ]
+      },
+      "id": "node/5760276265"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5760285736",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2022-11-14",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5721884,
+          47.4038484
+        ]
+      },
+      "id": "node/5760285736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5761764053",
+        "advertising": "column",
+        "check_date": "2023-07-24"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5462123,
+          47.3680726
+        ]
+      },
+      "id": "node/5761764053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5763790345",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2023-08-11",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541223,
+          47.4138545
+        ]
+      },
+      "id": "node/5763790345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5763790347",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2023-07-18",
+        "lit": "yes",
+        "operator": "APG SGA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5418767,
+          47.4141254
+        ]
+      },
+      "id": "node/5763790347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5763790545",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2023-01-26",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5439391,
+          47.4098089
+        ]
+      },
+      "id": "node/5763790545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5763792599",
+        "advertising": "column",
+        "check_date": "2022-08-22"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.545415,
+          47.4092034
+        ]
+      },
+      "id": "node/5763792599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5763792615",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2023-02-17",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5507128,
+          47.4126525
+        ]
+      },
+      "id": "node/5763792615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5763792634",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2022-11-10",
+        "lit": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5515194,
+          47.4145402
+        ]
+      },
+      "id": "node/5763792634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5763820661",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2023-06-06",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5221391,
+          47.3571926
+        ]
+      },
+      "id": "node/5763820661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5766057448",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2021-06-07",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.522701,
+          47.3665479
+        ]
+      },
+      "id": "node/5766057448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5766058077",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2024-01-26",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5120512,
+          47.3534701
+        ]
+      },
+      "id": "node/5766058077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5770475992",
+        "advertising": "column",
+        "animated": "rotating",
+        "lit": "yes",
+        "operator": "APG SGA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5316897,
+          47.3718437
+        ]
+      },
+      "id": "node/5770475992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5770475995",
+        "advertising": "column",
+        "animated": "rotating",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5293114,
+          47.3684711
+        ]
+      },
+      "id": "node/5770475995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5770818824",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2024-07-22",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5021176,
+          47.3739959
+        ]
+      },
+      "id": "node/5770818824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5775102200",
+        "advertising": "column",
+        "animated": "rotating",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5220523,
+          47.3903882
+        ]
+      },
+      "id": "node/5775102200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5775103427",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2022-08-31",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5240254,
+          47.3924731
+        ]
+      },
+      "id": "node/5775103427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5777219154",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2022-11-14",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5182935,
+          47.3757195
+        ]
+      },
+      "id": "node/5777219154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5796499480",
+        "advertising": "column",
+        "vending": "excrement_bags",
+        "waste": "trash;dog_excrement"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6876982,
+          47.4255982
+        ]
+      },
+      "id": "node/5796499480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5819394190",
+        "advertising": "billboard",
+        "lit": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5339749,
+          47.3981431
+        ]
+      },
+      "id": "node/5819394190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5819394191",
+        "advertising": "billboard",
+        "lit": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5340122,
+          47.3981496
+        ]
+      },
+      "id": "node/5819394191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5819394192",
+        "advertising": "billboard",
+        "lit": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5340494,
+          47.3981564
+        ]
+      },
+      "id": "node/5819394192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5819394194",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5329417,
+          47.3982664
+        ]
+      },
+      "id": "node/5819394194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5819394195",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5329386,
+          47.3982775
+        ]
+      },
+      "id": "node/5819394195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5819394196",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5329355,
+          47.3982898
+        ]
+      },
+      "id": "node/5819394196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5819394197",
+        "advertising": "billboard",
+        "lit": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5333042,
+          47.3985398
+        ]
+      },
+      "id": "node/5819394197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5819394198",
+        "advertising": "billboard",
+        "lit": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5333008,
+          47.3985511
+        ]
+      },
+      "id": "node/5819394198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5819394199",
+        "advertising": "billboard",
+        "lit": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5332977,
+          47.3985622
+        ]
+      },
+      "id": "node/5819394199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5837327009",
+        "advertising": "column",
+        "check_date": "2022-09-14",
+        "lit": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5329108,
+          47.398151
+        ]
+      },
+      "id": "node/5837327009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5888695675",
+        "advertising": "column",
+        "animated": "rotating",
+        "lit": "yes",
+        "operator": "APG SGA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5071016,
+          47.3798492
+        ]
+      },
+      "id": "node/5888695675"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5888695676",
+        "advertising": "column",
+        "animated": "rotating",
+        "check_date": "2023-04-27",
+        "lit": "yes",
+        "operator": "APG SGA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4961601,
+          47.3846025
+        ]
+      },
+      "id": "node/5888695676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6002841060",
+        "advertising": "board",
+        "board_type": "history",
+        "information": "board",
+        "man_made": "advertising",
+        "name": "Zum Rosengarten",
+        "operator": "Fremden-Verkehrsverein Konstanz e. V.",
+        "sides": "2",
+        "tourism": "information",
+        "visibility": "house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1747712,
+          47.6599091
+        ]
+      },
+      "id": "node/6002841060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6003076493",
+        "advertising": "flag",
+        "layer": "1",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1768903,
+          47.6602302
+        ]
+      },
+      "id": "node/6003076493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6003076498",
+        "advertising": "flag",
+        "layer": "1",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1767635,
+          47.6596855
+        ]
+      },
+      "id": "node/6003076498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6003105411",
+        "advertising": "column",
+        "amenity": "clock",
+        "check_date": "2024-02-25",
+        "display": "analog",
+        "faces": "4",
+        "support": "billboard",
+        "visibility": "area"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1771531,
+          47.659207
+        ]
+      },
+      "id": "node/6003105411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6003315216",
+        "advertising": "column",
+        "check_date": "2023-04-11"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1704857,
+          47.6590162
+        ]
+      },
+      "id": "node/6003315216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6006775118",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1772177,
+          47.6616197
+        ]
+      },
+      "id": "node/6006775118"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6163146811",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1688614,
+          47.6580007
+        ]
+      },
+      "id": "node/6163146811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6229966446",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3435107,
+          47.3503627
+        ]
+      },
+      "id": "node/6229966446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6470557569",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8809844,
+          47.6048058
+        ]
+      },
+      "id": "node/6470557569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6548405140",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.355313,
+          47.6401192
+        ]
+      },
+      "id": "node/6548405140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6594302570",
+        "advertising": "billboard",
+        "inscription": "Passo MORTIROLO (Passo della Foppa) m. 1852 COMUNE DI MONNO (Brescia)",
+        "man_made": "advertising",
+        "material": "wood",
+        "message": "information",
+        "support": "pole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2994781,
+          46.2481827
+        ]
+      },
+      "id": "node/6594302570"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6651659343",
+        "advertising": "board",
+        "description": "Waltner's Alpe",
+        "mapillary": "185523213434911"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.014273,
+          47.50834
+        ]
+      },
+      "id": "node/6651659343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6691312972",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6546556,
+          47.5594519
+        ]
+      },
+      "id": "node/6691312972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6889501056",
+        "advertising": "column",
+        "check_date": "2024-05-14"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7410692,
+          47.495281
+        ]
+      },
+      "id": "node/6889501056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6898740844",
+        "advertising": "column",
+        "animated": "rotating",
+        "lit": "yes",
+        "operator": "Clear Channel Schweiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5725245,
+          47.4042475
+        ]
+      },
+      "id": "node/6898740844"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6912928950",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8920836,
+          47.5556077
+        ]
+      },
+      "id": "node/6912928950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7079851999",
+        "advertising": "column",
+        "check_date": "2024-05-09"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8933373,
+          47.5583496
+        ]
+      },
+      "id": "node/7079851999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7118145380",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1778031,
+          47.6600506
+        ]
+      },
+      "id": "node/7118145380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7118198496",
+        "advertising": "billboard",
+        "lit": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1776395,
+          47.6602155
+        ]
+      },
+      "id": "node/7118198496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7118198497",
+        "advertising": "billboard",
+        "lit": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1775845,
+          47.6600105
+        ]
+      },
+      "id": "node/7118198497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7135985869",
+        "access": "yes",
+        "advertising": "column",
+        "check_date": "2022-11-20",
+        "lit": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5684555,
+          47.2897903
+        ]
+      },
+      "id": "node/7135985869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7135995580",
+        "access": "yes",
+        "advertising": "board",
+        "lit": "yes",
+        "location": "indoor",
+        "support": "wall_mounted"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5140832,
+          47.3261862
+        ]
+      },
+      "id": "node/7135995580"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7152388814",
+        "access": "yes",
+        "advertising": "board",
+        "description": "Beiträge für das schwarze Brett am Empfang abgeben. Der Empfang ist am Di - Fr um 14:00 - 17:30 Uhr geöffnet.",
+        "location": "indoor",
+        "man_made": "advertising",
+        "name": "Schwarzes Brett"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4725129,
+          47.388524
+        ]
+      },
+      "id": "node/7152388814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7167392509",
+        "advertising": "board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6932026,
+          47.4164244
+        ]
+      },
+      "id": "node/7167392509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7167392510",
+        "advertising": "board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.692721,
+          47.4173882
+        ]
+      },
+      "id": "node/7167392510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7198112406",
+        "access": "yes",
+        "advertising": "board",
+        "description": "Privatanzeigen: Anzeigen müssen im Büro oder Café abgestempelt und mit Eingangsdatum versehen werden.",
+        "location": "indoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5294962,
+          47.3594208
+        ]
+      },
+      "id": "node/7198112406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7204059919",
+        "advertising": "column",
+        "check_date": "2025-02-28"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5474404,
+          47.371467
+        ]
+      },
+      "id": "node/7204059919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7253862979",
+        "advertising": "totem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7204624,
+          47.4987089
+        ]
+      },
+      "id": "node/7253862979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7256077962",
+        "advertising": "billboard",
+        "sides": "1",
+        "support": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8899863,
+          47.5552426
+        ]
+      },
+      "id": "node/7256077962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7276214220",
+        "access": "yes",
+        "advertising": "board",
+        "description": "Eine Pingwand für private Anliegen und Angebote.",
+        "location": "indoor",
+        "support": "wall_mounted"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8280491,
+          47.2753101
+        ]
+      },
+      "id": "node/7276214220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7366414025",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6137751,
+          47.3992212
+        ]
+      },
+      "id": "node/7366414025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7366414026",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6140445,
+          47.3992729
+        ]
+      },
+      "id": "node/7366414026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7504396941",
+        "advertising": "board",
+        "name": "...suche....biete...",
+        "support": "wall_mounted"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5958519,
+          47.3937782
+        ]
+      },
+      "id": "node/7504396941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7622414413",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8723156,
+          47.5523525
+        ]
+      },
+      "id": "node/7622414413"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7628319611",
+        "access": "yes",
+        "advertising": "board",
+        "location": "indoor",
+        "support": "wall_mounted"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5362536,
+          47.3866993
+        ]
+      },
+      "id": "node/7628319611"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7628851061",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8744858,
+          47.552371
+        ]
+      },
+      "id": "node/7628851061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7628851071",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8739826,
+          47.5523826
+        ]
+      },
+      "id": "node/7628851071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7632182890",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8779053,
+          47.5521529
+        ]
+      },
+      "id": "node/7632182890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7632774167",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3872428,
+          47.4073978
+        ]
+      },
+      "id": "node/7632774167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7634941585",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8807029,
+          47.5522923
+        ]
+      },
+      "id": "node/7634941585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7634941587",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8801362,
+          47.5522954
+        ]
+      },
+      "id": "node/7634941587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7646010106",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8842615,
+          47.5523556
+        ]
+      },
+      "id": "node/7646010106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7646010107",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8842427,
+          47.5523541
+        ]
+      },
+      "id": "node/7646010107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7649083031",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8872062,
+          47.5526774
+        ]
+      },
+      "id": "node/7649083031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7649083032",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8871831,
+          47.5526772
+        ]
+      },
+      "id": "node/7649083032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7649083045",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.885331,
+          47.5524034
+        ]
+      },
+      "id": "node/7649083045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7663859634",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8912704,
+          47.5529422
+        ]
+      },
+      "id": "node/7663859634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7694447978",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8899681,
+          47.5560088
+        ]
+      },
+      "id": "node/7694447978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7733581205",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9044312,
+          47.5613066
+        ]
+      },
+      "id": "node/7733581205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7740100761",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9077521,
+          47.5629328
+        ]
+      },
+      "id": "node/7740100761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7743475494",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9082373,
+          47.5632257
+        ]
+      },
+      "id": "node/7743475494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7743475495",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9082108,
+          47.5632446
+        ]
+      },
+      "id": "node/7743475495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7743475496",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9079555,
+          47.563304
+        ]
+      },
+      "id": "node/7743475496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7743475497",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9079332,
+          47.5632829
+        ]
+      },
+      "id": "node/7743475497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7746081701",
+        "access": "yes",
+        "advertising": "board",
+        "description": "Gratis-Kundeninserate",
+        "fee": "no",
+        "level": "0",
+        "operator": "Coop Genossenschaft",
+        "support": "wall_mounted",
+        "visibility": "house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4998094,
+          47.3863536
+        ]
+      },
+      "id": "node/7746081701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7817408738",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.878218,
+          47.55686
+        ]
+      },
+      "id": "node/7817408738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7839564796",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8724466,
+          47.5639999
+        ]
+      },
+      "id": "node/7839564796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7839564797",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8724264,
+          47.5640033
+        ]
+      },
+      "id": "node/7839564797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7878517140",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9206851,
+          47.5701247
+        ]
+      },
+      "id": "node/7878517140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7878517141",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9206914,
+          47.5700967
+        ]
+      },
+      "id": "node/7878517141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7886729585",
+        "access": "yes",
+        "advertising": "board",
+        "name": "Kleinanschläge",
+        "operator:type": "community",
+        "support": "wall_mounted",
+        "visibility": "house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5059132,
+          47.3924323
+        ]
+      },
+      "id": "node/7886729585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7886787125",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9165731,
+          47.5684886
+        ]
+      },
+      "id": "node/7886787125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7912311399",
+        "access": "permissive",
+        "advertising": "board",
+        "check_date": "2024-12-10",
+        "fee": "no",
+        "level": "0",
+        "lit": "yes",
+        "location": "indoor",
+        "name": "Kundeninserate",
+        "operator": "Migros",
+        "support": "wall_mounted",
+        "visibility": "house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4873893,
+          47.3882656
+        ]
+      },
+      "id": "node/7912311399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7927861485",
+        "access": "permissive",
+        "advertising": "board",
+        "lit": "no",
+        "visibility": "street"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4707106,
+          47.3817898
+        ]
+      },
+      "id": "node/7927861485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7948688495",
+        "advertising": "billboard",
+        "direction": "60"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5101916,
+          47.4701939
+        ]
+      },
+      "id": "node/7948688495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7953734220",
+        "advertising": "billboard",
+        "covered": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.821314,
+          46.79202
+        ]
+      },
+      "id": "node/7953734220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7953734224",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8212228,
+          46.7920094
+        ]
+      },
+      "id": "node/7953734224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7953997184",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2803578,
+          47.3858729
+        ]
+      },
+      "id": "node/7953997184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7968435652",
+        "access": "yes",
+        "advertising": "board",
+        "fee": "no",
+        "name": "Gratis-Kundeninserate",
+        "operator": "Coop Genossenschaft",
+        "support": "wall_mounted",
+        "visibility": "house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5068765,
+          47.3609194
+        ]
+      },
+      "id": "node/7968435652"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7984119444",
+        "access": "yes",
+        "advertising": "board",
+        "fee": "no",
+        "name": "Kundeninserate",
+        "operator": "Genossenschaft Migros Zürich",
+        "support": "wall_mounted",
+        "visibility": "house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4857961,
+          47.3752325
+        ]
+      },
+      "id": "node/7984119444"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8033484642",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.895722,
+          47.5578547
+        ]
+      },
+      "id": "node/8033484642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8047132927",
+        "advertising": "billboard",
+        "direction": "90"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1688288,
+          47.658296
+        ]
+      },
+      "id": "node/8047132927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8068001218",
+        "access": "permissive",
+        "advertising": "board",
+        "note": "Es sind keine Regeln beschrieben wer wann Inserate ankleben darf, aber es waren eindeutig Kleinanzeigen von privat Personen, welche geduldet werden.",
+        "visibility": "house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6202947,
+          47.3640696
+        ]
+      },
+      "id": "node/8068001218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8173619331",
+        "advertising": "billboard",
+        "direction": "130;310"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3801303,
+          47.507566
+        ]
+      },
+      "id": "node/8173619331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8264539017",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3760603,
+          47.4265193
+        ]
+      },
+      "id": "node/8264539017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8291565861",
+        "advertising": "board",
+        "board_type": "notice",
+        "information": "board",
+        "operator": "Quartierverein Äusseres Lind"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7268834,
+          47.5087837
+        ]
+      },
+      "id": "node/8291565861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8294082901",
+        "advertising": "totem",
+        "man_made": "advertising",
+        "sides": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7740652,
+          47.3711154
+        ]
+      },
+      "id": "node/8294082901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8294097928",
+        "advertising": "flag",
+        "man_made": "advertising",
+        "operator": "Popeye"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7746877,
+          47.3710353
+        ]
+      },
+      "id": "node/8294097928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8294097929",
+        "advertising": "flag",
+        "man_made": "advertising",
+        "operator": "Popeye"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7746559,
+          47.3710384
+        ]
+      },
+      "id": "node/8294097929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8294097930",
+        "advertising": "flag",
+        "man_made": "advertising",
+        "operator": "Popeye"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.774622,
+          47.3710418
+        ]
+      },
+      "id": "node/8294097930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8294097931",
+        "advertising": "totem",
+        "luminous": "yes",
+        "man_made": "advertising",
+        "operator": "Popeye",
+        "sides": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.77473,
+          47.3710282
+        ]
+      },
+      "id": "node/8294097931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8333871616",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9105465,
+          47.5648768
+        ]
+      },
+      "id": "node/8333871616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8333876924",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9106458,
+          47.5653017
+        ]
+      },
+      "id": "node/8333876924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8383764401",
+        "access": "permit",
+        "advertising": "board",
+        "description": "Bitte Plakate im Laden abgeben!",
+        "name": "Dorf- und Vereinsmitteilungen",
+        "operator": "Volg",
+        "support": "wall_mounted",
+        "visibility": "house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2417304,
+          46.4691569
+        ]
+      },
+      "id": "node/8383764401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8398404140",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4642479,
+          47.4810233
+        ]
+      },
+      "id": "node/8398404140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8401749529",
+        "access": "yes",
+        "advertising": "board",
+        "location": "indoor",
+        "name": "marktplatz",
+        "operator": "GZ Buchegg",
+        "support": "wall_mounted",
+        "visibility": "house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.534839,
+          47.3989245
+        ]
+      },
+      "id": "node/8401749529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8437889033",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4636674,
+          47.6525293
+        ]
+      },
+      "id": "node/8437889033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8445498572",
+        "advertising": "billboard",
+        "layer": "-1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8992434,
+          47.5601702
+        ]
+      },
+      "id": "node/8445498572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8445498574",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8985734,
+          47.5606105
+        ]
+      },
+      "id": "node/8445498574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8725779922",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5373236,
+          47.36848
+        ]
+      },
+      "id": "node/8725779922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8869358981",
+        "advertising": "billboard",
+        "lit": "yes",
+        "support": "pole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2909286,
+          47.0128398
+        ]
+      },
+      "id": "node/8869358981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8946584125",
+        "advertising": "totem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5217107,
+          47.3202699
+        ]
+      },
+      "id": "node/8946584125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8946830099",
+        "advertising": "flag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5283027,
+          47.3180834
+        ]
+      },
+      "id": "node/8946830099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8946841619",
+        "advertising": "flag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5283349,
+          47.3180561
+        ]
+      },
+      "id": "node/8946841619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8946841625",
+        "advertising": "flag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5283197,
+          47.3180701
+        ]
+      },
+      "id": "node/8946841625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8949058574",
+        "advertising": "flag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.522364,
+          47.3197515
+        ]
+      },
+      "id": "node/8949058574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8949058613",
+        "advertising": "flag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5224736,
+          47.3198073
+        ]
+      },
+      "id": "node/8949058613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8949060047",
+        "advertising": "flag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5224149,
+          47.3197775
+        ]
+      },
+      "id": "node/8949060047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8949060068",
+        "advertising": "flag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.522443,
+          47.3197902
+        ]
+      },
+      "id": "node/8949060068"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8949060126",
+        "advertising": "flag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5223886,
+          47.3197648
+        ]
+      },
+      "id": "node/8949060126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8960466178",
+        "advertising": "flag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5296265,
+          47.3151385
+        ]
+      },
+      "id": "node/8960466178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8960466179",
+        "advertising": "flag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5296562,
+          47.3151277
+        ]
+      },
+      "id": "node/8960466179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8960466201",
+        "advertising": "flag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5293942,
+          47.3148831
+        ]
+      },
+      "id": "node/8960466201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8960470830",
+        "advertising": "flag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5296844,
+          47.3151168
+        ]
+      },
+      "id": "node/8960470830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8960618381",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5290215,
+          47.3194582
+        ]
+      },
+      "id": "node/8960618381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8980289607",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5339105,
+          47.3090894
+        ]
+      },
+      "id": "node/8980289607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8980289610",
+        "advertising": "board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5355649,
+          47.3084455
+        ]
+      },
+      "id": "node/8980289610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8990506154",
+        "advertising": "flag",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5213034,
+          47.3158122
+        ]
+      },
+      "id": "node/8990506154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8990506216",
+        "advertising": "flag",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5213662,
+          47.3157462
+        ]
+      },
+      "id": "node/8990506216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8990514937",
+        "advertising": "flag",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5213279,
+          47.3158324
+        ]
+      },
+      "id": "node/8990514937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8990514940",
+        "advertising": "flag",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5213244,
+          47.315755
+        ]
+      },
+      "id": "node/8990514940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8990514942",
+        "advertising": "flag",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5213477,
+          47.3157518
+        ]
+      },
+      "id": "node/8990514942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8990514962",
+        "advertising": "flag",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5213151,
+          47.3158198
+        ]
+      },
+      "id": "node/8990514962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9002000004",
+        "advertising": "flag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5297231,
+          47.326638
+        ]
+      },
+      "id": "node/9002000004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9002000005",
+        "advertising": "flag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5297258,
+          47.3267069
+        ]
+      },
+      "id": "node/9002000005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9002000009",
+        "advertising": "flag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5297233,
+          47.32666
+        ]
+      },
+      "id": "node/9002000009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9002000015",
+        "advertising": "flag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5296958,
+          47.3261676
+        ]
+      },
+      "id": "node/9002000015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9002025525",
+        "advertising": "flag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5297531,
+          47.327688
+        ]
+      },
+      "id": "node/9002025525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9002025526",
+        "advertising": "flag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.529754,
+          47.327753
+        ]
+      },
+      "id": "node/9002025526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9002025529",
+        "advertising": "flag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5296972,
+          47.3261307
+        ]
+      },
+      "id": "node/9002025529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9002025532",
+        "advertising": "flag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5296995,
+          47.3261488
+        ]
+      },
+      "id": "node/9002025532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9002025534",
+        "advertising": "flag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5297261,
+          47.3266844
+        ]
+      },
+      "id": "node/9002025534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9002025542",
+        "advertising": "flag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5297552,
+          47.3277207
+        ]
+      },
+      "id": "node/9002025542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9002025543",
+        "advertising": "flag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5297264,
+          47.3267293
+        ]
+      },
+      "id": "node/9002025543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9008367263",
+        "advertising": "board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5186473,
+          47.3215513
+        ]
+      },
+      "id": "node/9008367263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9025246761",
+        "advertising": "totem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.13816,
+          47.4355954
+        ]
+      },
+      "id": "node/9025246761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9025246762",
+        "advertising": "totem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1381232,
+          47.4352779
+        ]
+      },
+      "id": "node/9025246762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9025246763",
+        "advertising": "totem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1384477,
+          47.4351549
+        ]
+      },
+      "id": "node/9025246763"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9029014247",
+        "advertising": "totem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5228298,
+          47.3190375
+        ]
+      },
+      "id": "node/9029014247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9029664274",
+        "advertising": "totem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5234322,
+          47.318522
+        ]
+      },
+      "id": "node/9029664274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9029873442",
+        "advertising": "board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.364596,
+          47.071555
+        ]
+      },
+      "id": "node/9029873442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9029873470",
+        "advertising": "board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3633123,
+          47.0713929
+        ]
+      },
+      "id": "node/9029873470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9045290103",
+        "advertising": "billboard",
+        "animated": "no",
+        "height": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8914116,
+          47.5651686
+        ]
+      },
+      "id": "node/9045290103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9048492274",
+        "advertising": "totem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5216998,
+          47.3207699
+        ]
+      },
+      "id": "node/9048492274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9062439712",
+        "advertising": "flag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5302258,
+          47.3156629
+        ]
+      },
+      "id": "node/9062439712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9062451624",
+        "advertising": "flag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5302123,
+          47.3156125
+        ]
+      },
+      "id": "node/9062451624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9062451645",
+        "advertising": "flag"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5302203,
+          47.3156379
+        ]
+      },
+      "id": "node/9062451645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9071127593",
+        "advertising": "column",
+        "lit": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3151088,
+          47.0440803
+        ]
+      },
+      "id": "node/9071127593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9082270610",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.541921,
+          47.3688473
+        ]
+      },
+      "id": "node/9082270610"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9223894831",
+        "advertising": "totem",
+        "visibility": "house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5254212,
+          47.3111192
+        ]
+      },
+      "id": "node/9223894831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9261174605",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.731158,
+          47.497916
+        ]
+      },
+      "id": "node/9261174605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9284030745",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.395109,
+          47.4599427
+        ]
+      },
+      "id": "node/9284030745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9515306314",
+        "addr:city": "Hüntwangen",
+        "addr:housenumber": "5",
+        "addr:postcode": "8194",
+        "addr:street": "Signalstrasse",
+        "advertising": "board",
+        "amenity": "police",
+        "check_date": "2025-01-23",
+        "name": "Polizeiposten Rafzerfeld",
+        "operator": "Kantonspolizei Zürich",
+        "operator:wikidata": "Q1728099",
+        "operator:wikipedia": "de:Kantonspolizei Zürich",
+        "phone": "+41 58 648 62 30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5136887,
+          47.5811837
+        ]
+      },
+      "id": "node/9515306314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9553195191",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5904044,
+          46.6370342
+        ]
+      },
+      "id": "node/9553195191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9584934881",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3957688,
+          47.1913834
+        ]
+      },
+      "id": "node/9584934881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9588503246",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6062955,
+          47.2540256
+        ]
+      },
+      "id": "node/9588503246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9725484672",
+        "advertising": "board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0793179,
+          47.3456455
+        ]
+      },
+      "id": "node/9725484672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9748476936",
+        "advertising": "billboard",
+        "direction": "215"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1690389,
+          47.6574798
+        ]
+      },
+      "id": "node/9748476936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9788885169",
+        "advertising": "board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5387431,
+          47.6140109
+        ]
+      },
+      "id": "node/9788885169"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9788885170",
+        "advertising": "board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5385071,
+          47.6122236
+        ]
+      },
+      "id": "node/9788885170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9788885171",
+        "advertising": "board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5379046,
+          47.6121693
+        ]
+      },
+      "id": "node/9788885171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9788885173",
+        "advertising": "board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5398094,
+          47.6115205
+        ]
+      },
+      "id": "node/9788885173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9788885174",
+        "advertising": "board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5372233,
+          47.6132012
+        ]
+      },
+      "id": "node/9788885174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9788885175",
+        "advertising": "board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.53415,
+          47.6125648
+        ]
+      },
+      "id": "node/9788885175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9870103075",
+        "advertising": "screen",
+        "animated": "yes",
+        "luminous": "yes",
+        "sides": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7135451,
+          47.4959737
+        ]
+      },
+      "id": "node/9870103075"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9914755175",
+        "advertising": "totem",
+        "brand": "Eni",
+        "brand:wikidata": "Q565594",
+        "operator": "Eni"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6341651,
+          46.8446814
+        ]
+      },
+      "id": "node/9914755175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9942970270",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5254297,
+          47.3125272
+        ]
+      },
+      "id": "node/9942970270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9966422002",
+        "advertising": "billboard",
+        "operator": "Canyoning Val Bodengo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3336915,
+          46.2708819
+        ]
+      },
+      "id": "node/9966422002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9977454692",
+        "advertising": "totem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6594917,
+          47.4194765
+        ]
+      },
+      "id": "node/9977454692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10044161446",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5351361,
+          47.382106
+        ]
+      },
+      "id": "node/10044161446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10044161447",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5353183,
+          47.3829767
+        ]
+      },
+      "id": "node/10044161447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10044161448",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5323934,
+          47.3810514
+        ]
+      },
+      "id": "node/10044161448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10044161449",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5410332,
+          47.3772113
+        ]
+      },
+      "id": "node/10044161449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10044161450",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5421137,
+          47.3771879
+        ]
+      },
+      "id": "node/10044161450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10044161451",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5400811,
+          47.3768547
+        ]
+      },
+      "id": "node/10044161451"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10044161452",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.538652,
+          47.3774538
+        ]
+      },
+      "id": "node/10044161452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10044161453",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5329362,
+          47.3845581
+        ]
+      },
+      "id": "node/10044161453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10044161454",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5320886,
+          47.384474
+        ]
+      },
+      "id": "node/10044161454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10044161455",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5270351,
+          47.3876205
+        ]
+      },
+      "id": "node/10044161455"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10044161456",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.51294,
+          47.3897162
+        ]
+      },
+      "id": "node/10044161456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10044161457",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5216323,
+          47.3896964
+        ]
+      },
+      "id": "node/10044161457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10044161458",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5222382,
+          47.3905399
+        ]
+      },
+      "id": "node/10044161458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10044161459",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5063998,
+          47.3922652
+        ]
+      },
+      "id": "node/10044161459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10044161460",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5068608,
+          47.3937752
+        ]
+      },
+      "id": "node/10044161460"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10044161461",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5186517,
+          47.3876016
+        ]
+      },
+      "id": "node/10044161461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10044161462",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5236196,
+          47.3864727
+        ]
+      },
+      "id": "node/10044161462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10044161463",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5229481,
+          47.3869167
+        ]
+      },
+      "id": "node/10044161463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10044161464",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5438855,
+          47.3743411
+        ]
+      },
+      "id": "node/10044161464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10073705221",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0788938,
+          47.3485033
+        ]
+      },
+      "id": "node/10073705221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10076860160",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4598713,
+          47.6522753
+        ]
+      },
+      "id": "node/10076860160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10087854145",
+        "advertising": "totem",
+        "lit": "yes",
+        "operator": "AVIA",
+        "visibility": "street"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8857007,
+          47.5881753
+        ]
+      },
+      "id": "node/10087854145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10180542676",
+        "advertising": "totem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5245177,
+          47.3119982
+        ]
+      },
+      "id": "node/10180542676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10203990618",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4042909,
+          47.4061896
+        ]
+      },
+      "id": "node/10203990618"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10211810049",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9001389,
+          47.5643124
+        ]
+      },
+      "id": "node/10211810049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10211810050",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9008278,
+          47.564205
+        ]
+      },
+      "id": "node/10211810050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10262845664",
+        "advertising": "billboard",
+        "support": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1040801,
+          47.5670884
+        ]
+      },
+      "id": "node/10262845664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10269914551",
+        "advertising": "poster_box",
+        "animated": "screen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5292462,
+          47.3734163
+        ]
+      },
+      "id": "node/10269914551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10307374929",
+        "advertising": "column",
+        "animated": "no",
+        "luminous": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8599761,
+          47.6608532
+        ]
+      },
+      "id": "node/10307374929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10309365613",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.820228,
+          47.2285177
+        ]
+      },
+      "id": "node/10309365613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10554150452",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5487599,
+          47.4058861
+        ]
+      },
+      "id": "node/10554150452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10576364922",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8734664,
+          47.5522647
+        ]
+      },
+      "id": "node/10576364922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10580889421",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7252954,
+          47.5013137
+        ]
+      },
+      "id": "node/10580889421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10586713072",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5314342,
+          47.3785664
+        ]
+      },
+      "id": "node/10586713072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10598275961",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7247766,
+          47.5010102
+        ]
+      },
+      "id": "node/10598275961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10598275963",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7248346,
+          47.5010796
+        ]
+      },
+      "id": "node/10598275963"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10725593029",
+        "advertising": "screen",
+        "lit": "yes",
+        "operator": "AVA",
+        "visibility": "street"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3465252,
+          47.3516642
+        ]
+      },
+      "id": "node/10725593029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10743246463",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.506372,
+          47.383267
+        ]
+      },
+      "id": "node/10743246463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10743246464",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5190668,
+          47.3787398
+        ]
+      },
+      "id": "node/10743246464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10743246466",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5168001,
+          47.3794862
+        ]
+      },
+      "id": "node/10743246466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10761404011",
+        "advertising": "column",
+        "height": "2.5",
+        "support": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7003392,
+          47.478091
+        ]
+      },
+      "id": "node/10761404011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10790589213",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5318401,
+          46.8515302
+        ]
+      },
+      "id": "node/10790589213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10794976905",
+        "advertising": "column",
+        "animated": "no",
+        "lit": "no",
+        "luminous": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5437955,
+          47.5993686
+        ]
+      },
+      "id": "node/10794976905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10833515226",
+        "access": "yes",
+        "advertising": "board",
+        "description": "Gratis-Kundeninserate",
+        "fee": "no",
+        "level": "0",
+        "lit": "yes",
+        "operator": "Coop Genossenschaft",
+        "support": "wall_mounted",
+        "visibility": "house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4720013,
+          47.3897011
+        ]
+      },
+      "id": "node/10833515226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10905098462",
+        "advertising": "billboard",
+        "support": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7189133,
+          47.4998002
+        ]
+      },
+      "id": "node/10905098462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10905098470",
+        "advertising": "billboard",
+        "support": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7189311,
+          47.4998211
+        ]
+      },
+      "id": "node/10905098470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10905098471",
+        "advertising": "billboard",
+        "support": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7188965,
+          47.4997823
+        ]
+      },
+      "id": "node/10905098471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10965308877",
+        "advertising": "totem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5244686,
+          47.3124114
+        ]
+      },
+      "id": "node/10965308877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10991824470",
+        "advertising": "billboard",
+        "sides": "2",
+        "support": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7304803,
+          47.5004927
+        ]
+      },
+      "id": "node/10991824470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10992333245",
+        "advertising": "flag",
+        "flag:type": "advertising",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6028066,
+          47.4017371
+        ]
+      },
+      "id": "node/10992333245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10992333253",
+        "advertising": "flag",
+        "flag:type": "advertising",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6028367,
+          47.4017283
+        ]
+      },
+      "id": "node/10992333253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10992333261",
+        "advertising": "flag",
+        "flag:type": "advertising",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6026853,
+          47.4017651
+        ]
+      },
+      "id": "node/10992333261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10992333264",
+        "advertising": "flag",
+        "flag:type": "advertising",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.602776,
+          47.4017459
+        ]
+      },
+      "id": "node/10992333264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10992333274",
+        "advertising": "flag",
+        "flag:type": "advertising",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6027341,
+          47.4017558
+        ]
+      },
+      "id": "node/10992333274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10992333279",
+        "advertising": "flag",
+        "flag:type": "advertising",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6019713,
+          47.401264
+        ]
+      },
+      "id": "node/10992333279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10992333280",
+        "advertising": "flag",
+        "flag:type": "advertising",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6027085,
+          47.4017611
+        ]
+      },
+      "id": "node/10992333280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10992333284",
+        "advertising": "flag",
+        "flag:type": "advertising",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6019446,
+          47.4012169
+        ]
+      },
+      "id": "node/10992333284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10992333291",
+        "advertising": "flag",
+        "flag:type": "advertising",
+        "man_made": "flagpole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6019562,
+          47.4012364
+        ]
+      },
+      "id": "node/10992333291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11045775774",
+        "advertising": "billboard",
+        "sides": "2",
+        "support": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8969848,
+          47.5584962
+        ]
+      },
+      "id": "node/11045775774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11061540054",
+        "advertising": "board",
+        "man_made": "advertising",
+        "message": "local",
+        "sides": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0485081,
+          47.4221127
+        ]
+      },
+      "id": "node/11061540054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11061540055",
+        "advertising": "board",
+        "man_made": "advertising",
+        "message": "local",
+        "sides": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.049355,
+          47.4127321
+        ]
+      },
+      "id": "node/11061540055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11061540057",
+        "advertising": "board",
+        "man_made": "advertising",
+        "message": "local",
+        "sides": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0398782,
+          47.4115372
+        ]
+      },
+      "id": "node/11061540057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11083701956",
+        "advertising": "column",
+        "lit": "no",
+        "luminous": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5967056,
+          47.2397083
+        ]
+      },
+      "id": "node/11083701956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11092047264",
+        "advertising": "column",
+        "animated": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2809302,
+          47.3872938
+        ]
+      },
+      "id": "node/11092047264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11102402735",
+        "advertising": "column",
+        "animated": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3823678,
+          47.4262888
+        ]
+      },
+      "id": "node/11102402735"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11140785745",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5245954,
+          47.386127
+        ]
+      },
+      "id": "node/11140785745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11141489121",
+        "advertising": "column",
+        "animated": "no",
+        "lit": "no",
+        "luminous": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4963416,
+          47.6502307
+        ]
+      },
+      "id": "node/11141489121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11190190032",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7331473,
+          47.4948593
+        ]
+      },
+      "id": "node/11190190032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11198524221",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6132354,
+          47.3967346
+        ]
+      },
+      "id": "node/11198524221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11234035369",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5471642,
+          47.0445892
+        ]
+      },
+      "id": "node/11234035369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11234035370",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5468785,
+          47.0449255
+        ]
+      },
+      "id": "node/11234035370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11234035371",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5468745,
+          47.0445874
+        ]
+      },
+      "id": "node/11234035371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11234035372",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5471995,
+          47.0443223
+        ]
+      },
+      "id": "node/11234035372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11234035373",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5473245,
+          47.0442511
+        ]
+      },
+      "id": "node/11234035373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11241338569",
+        "advertising": "billboard",
+        "operator": "Graniti Conrad",
+        "support": "ornamental"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4318892,
+          46.3276237
+        ]
+      },
+      "id": "node/11241338569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11280383698",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5774535,
+          47.2767369
+        ]
+      },
+      "id": "node/11280383698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11327634872",
+        "advertising": "board",
+        "sides": "2",
+        "support": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8963404,
+          47.557852
+        ]
+      },
+      "id": "node/11327634872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11329906034",
+        "advertising": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2146957,
+          47.5589223
+        ]
+      },
+      "id": "node/11329906034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11329906035",
+        "advertising": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2130484,
+          47.5591674
+        ]
+      },
+      "id": "node/11329906035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11365779294",
+        "advertising": "board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5245633,
+          47.312316
+        ]
+      },
+      "id": "node/11365779294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11379257240",
+        "advertising": "column",
+        "animated": "no",
+        "luminous": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.644317,
+          47.2439491
+        ]
+      },
+      "id": "node/11379257240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11385811273",
+        "advertising": "billboard",
+        "sides": "2",
+        "support": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1047379,
+          47.566645
+        ]
+      },
+      "id": "node/11385811273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11399847392",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6233341,
+          47.3998405
+        ]
+      },
+      "id": "node/11399847392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11463377479",
+        "advertising": "billboard",
+        "support": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6788471,
+          47.2587018
+        ]
+      },
+      "id": "node/11463377479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11463377480",
+        "advertising": "billboard",
+        "support": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6788811,
+          47.258686
+        ]
+      },
+      "id": "node/11463377480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11463377481",
+        "advertising": "billboard",
+        "support": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6790993,
+          47.2585953
+        ]
+      },
+      "id": "node/11463377481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11463377482",
+        "advertising": "billboard",
+        "support": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6791288,
+          47.2585831
+        ]
+      },
+      "id": "node/11463377482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11465245636",
+        "advertising": "billboard",
+        "support": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.693431,
+          47.2531367
+        ]
+      },
+      "id": "node/11465245636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11514103340",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6684394,
+          47.228971
+        ]
+      },
+      "id": "node/11514103340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11514111343",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6684279,
+          47.2289549
+        ]
+      },
+      "id": "node/11514111343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11623967365",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5121793,
+          47.3535457
+        ]
+      },
+      "id": "node/11623967365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11633785779",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2735374,
+          47.41757
+        ]
+      },
+      "id": "node/11633785779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11722161720",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2805696,
+          47.0363141
+        ]
+      },
+      "id": "node/11722161720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11727485819",
+        "advertising": "board",
+        "board_type": "notice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6195361,
+          47.4208439
+        ]
+      },
+      "id": "node/11727485819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11737513564",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7286085,
+          47.5025443
+        ]
+      },
+      "id": "node/11737513564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11737513565",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7470761,
+          47.4903082
+        ]
+      },
+      "id": "node/11737513565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11766218745",
+        "advertising": "board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6168665,
+          47.4223955
+        ]
+      },
+      "id": "node/11766218745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11767291832",
+        "access": "permissive",
+        "advertising": "board",
+        "fee": "no",
+        "indoor": "yes",
+        "lit": "yes",
+        "operator": "BachserMärt",
+        "support": "wall_mounted",
+        "visibility": "house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4948939,
+          47.3760501
+        ]
+      },
+      "id": "node/11767291832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11799417779",
+        "access": "no",
+        "advertising": "totem",
+        "animated": "no",
+        "man_made": "advertising",
+        "message": "commercial",
+        "operator": "ALDI Süd",
+        "sides": "2",
+        "visibility": "street"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.184108,
+          47.6135829
+        ]
+      },
+      "id": "node/11799417779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11832587569",
+        "advertising": "board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6152092,
+          47.4168448
+        ]
+      },
+      "id": "node/11832587569"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11832587636",
+        "advertising": "board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.62224,
+          47.4192358
+        ]
+      },
+      "id": "node/11832587636"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11837364553",
+        "access": "yes",
+        "advertising": "board",
+        "description": "Direkt im Eingangsbereich auf der linken Seite über und auf dem Briefkasten.",
+        "level": "0",
+        "operator:type": "community",
+        "support": "wall_mounted",
+        "visibility": "house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.485972,
+          47.387258
+        ]
+      },
+      "id": "node/11837364553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11841047700",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5147006,
+          47.3741836
+        ]
+      },
+      "id": "node/11841047700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11850092302",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5153202,
+          47.3749619
+        ]
+      },
+      "id": "node/11850092302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11861872434",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2719274,
+          47.6350575
+        ]
+      },
+      "id": "node/11861872434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11878604777",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.264795,
+          47.6308165
+        ]
+      },
+      "id": "node/11878604777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11879264111",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5296439,
+          47.3148815
+        ]
+      },
+      "id": "node/11879264111"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11879264114",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5281414,
+          47.3136802
+        ]
+      },
+      "id": "node/11879264114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11879264116",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5282464,
+          47.3137775
+        ]
+      },
+      "id": "node/11879264116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11879264120",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5294859,
+          47.314755
+        ]
+      },
+      "id": "node/11879264120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11893487415",
+        "advertising": "column",
+        "animated": "no",
+        "height": "3",
+        "lit": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5522382,
+          47.369988
+        ]
+      },
+      "id": "node/11893487415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11936760094",
+        "advertising": "board",
+        "message": "local",
+        "operator": "Arche Zürich",
+        "support": "wall_mounted",
+        "visibility": "house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.494458,
+          47.3888179
+        ]
+      },
+      "id": "node/11936760094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11972571323",
+        "advertising": "column",
+        "support": "ground"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5153514,
+          47.173154
+        ]
+      },
+      "id": "node/11972571323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11990977666",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4783149,
+          47.6556221
+        ]
+      },
+      "id": "node/11990977666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11990979352",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4718508,
+          47.6564406
+        ]
+      },
+      "id": "node/11990979352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11991075463",
+        "advertising": "poster_box",
+        "animated": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4784742,
+          47.6499824
+        ]
+      },
+      "id": "node/11991075463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11991075464",
+        "advertising": "poster_box",
+        "animated": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4784904,
+          47.6499886
+        ]
+      },
+      "id": "node/11991075464"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11991076270",
+        "advertising": "poster_box",
+        "animated": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4784877,
+          47.6500036
+        ]
+      },
+      "id": "node/11991076270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11991076271",
+        "advertising": "poster_box",
+        "animated": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.478494,
+          47.6499963
+        ]
+      },
+      "id": "node/11991076271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11991076283",
+        "advertising": "poster_box",
+        "animated": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4783115,
+          47.6502029
+        ]
+      },
+      "id": "node/11991076283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11991076284",
+        "advertising": "poster_box",
+        "animated": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4782954,
+          47.6501967
+        ]
+      },
+      "id": "node/11991076284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11991076285",
+        "advertising": "poster_box",
+        "animated": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.478349,
+          47.6501736
+        ]
+      },
+      "id": "node/11991076285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11991076286",
+        "advertising": "poster_box",
+        "animated": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4783428,
+          47.6501809
+        ]
+      },
+      "id": "node/11991076286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11991076287",
+        "advertising": "poster_box",
+        "animated": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4783321,
+          47.6501935
+        ]
+      },
+      "id": "node/11991076287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11991076288",
+        "advertising": "poster_box",
+        "animated": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.478326,
+          47.6502006
+        ]
+      },
+      "id": "node/11991076288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12045406587",
+        "advertising": "sign",
+        "lit": "yes",
+        "operator": "Viva Kirche Pfäffikon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7782765,
+          47.3694596
+        ]
+      },
+      "id": "node/12045406587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12062929114",
+        "advertising": "board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3226702,
+          46.5527643
+        ]
+      },
+      "id": "node/12062929114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12067849982",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5288106,
+          47.3817142
+        ]
+      },
+      "id": "node/12067849982"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12075628986",
+        "advertising": "column",
+        "animated": "revolving",
+        "lit": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4587531,
+          47.3982336
+        ]
+      },
+      "id": "node/12075628986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12075959397",
+        "advertising": "screen",
+        "message": "commercial;showbiz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6250522,
+          47.4088117
+        ]
+      },
+      "id": "node/12075959397"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12084437139",
+        "advertising": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5145072,
+          47.1681001
+        ]
+      },
+      "id": "node/12084437139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12085933936",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6916991,
+          47.5501512
+        ]
+      },
+      "id": "node/12085933936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12091625383",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5358089,
+          47.3678682
+        ]
+      },
+      "id": "node/12091625383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12091625520",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5305948,
+          47.3713973
+        ]
+      },
+      "id": "node/12091625520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12096676638",
+        "advertising": "column",
+        "lit": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6844117,
+          47.560483
+        ]
+      },
+      "id": "node/12096676638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12097489408",
+        "advertising": "column",
+        "animated": "rotating",
+        "lit": "yes",
+        "operator": "APG SGA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4962802,
+          47.3863143
+        ]
+      },
+      "id": "node/12097489408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12102873638",
+        "advertising": "column",
+        "lit": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6905233,
+          47.5566939
+        ]
+      },
+      "id": "node/12102873638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12118910854",
+        "advertising": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8427844,
+          47.22967
+        ]
+      },
+      "id": "node/12118910854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12118910882",
+        "advertising": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8381646,
+          47.2301852
+        ]
+      },
+      "id": "node/12118910882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12118943959",
+        "advertising": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8539774,
+          47.2304008
+        ]
+      },
+      "id": "node/12118943959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12180852417",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6786146,
+          47.5477123
+        ]
+      },
+      "id": "node/12180852417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12189710785",
+        "advertising": "board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2405417,
+          47.5576438
+        ]
+      },
+      "id": "node/12189710785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12189998726",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2661536,
+          47.1269391
+        ]
+      },
+      "id": "node/12189998726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12209034303",
+        "advertising": "billboard",
+        "support": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8965869,
+          47.5582416
+        ]
+      },
+      "id": "node/12209034303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12211783085",
+        "advertising": "poster_box",
+        "lit": "automatic",
+        "sides": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5328523,
+          47.3469237
+        ]
+      },
+      "id": "node/12211783085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12211783087",
+        "advertising": "poster_box",
+        "lit": "automatic",
+        "sides": "2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5329658,
+          47.3471404
+        ]
+      },
+      "id": "node/12211783087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12232095161",
+        "advertising": "sign",
+        "lit": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5475051,
+          47.6037076
+        ]
+      },
+      "id": "node/12232095161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12243162875",
+        "advertising": "billboard",
+        "sides": "2",
+        "support": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8968256,
+          47.5586132
+        ]
+      },
+      "id": "node/12243162875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12290451167",
+        "advertising": "column",
+        "lit": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7252296,
+          47.4900659
+        ]
+      },
+      "id": "node/12290451167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12309587983",
+        "advertising": "column",
+        "lit": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.747877,
+          47.4133001
+        ]
+      },
+      "id": "node/12309587983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12323009716",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7817311,
+          47.373075
+        ]
+      },
+      "id": "node/12323009716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12345873234",
+        "advertising": "board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5421449,
+          47.6123754
+        ]
+      },
+      "id": "node/12345873234"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12367712238",
+        "advertising": "board",
+        "operator": "Schul- und Gemeindebibliothek Uitikon",
+        "support": "wall_mounted",
+        "visibility": "house"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4622566,
+          47.3678992
+        ]
+      },
+      "id": "node/12367712238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12412617252",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3377418,
+          47.4074141
+        ]
+      },
+      "id": "node/12412617252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12435578392",
+        "advertising": "billboard",
+        "animated": "no",
+        "lit": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.8817153,
+          47.5523288
+        ]
+      },
+      "id": "node/12435578392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12461012444",
+        "access": "yes",
+        "advertising": "board",
+        "lit": "no",
+        "operator": "Comune Di Mesocco",
+        "support": "wall_mounted"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1899593,
+          46.4616223
+        ]
+      },
+      "id": "node/12461012444"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12467019140",
+        "advertising": "board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5608018,
+          46.7627022
+        ]
+      },
+      "id": "node/12467019140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12467049109",
+        "advertising": "board"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5594849,
+          46.7602823
+        ]
+      },
+      "id": "node/12467049109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12467111650",
+        "advertising": "sign",
+        "operator": "Alpkäserei Parpan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5676573,
+          46.7638025
+        ]
+      },
+      "id": "node/12467111650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12471192240",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7396194,
+          47.5035918
+        ]
+      },
+      "id": "node/12471192240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12471237834",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.745734,
+          47.5051337
+        ]
+      },
+      "id": "node/12471237834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12471238146",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.735589,
+          47.5030857
+        ]
+      },
+      "id": "node/12471238146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12471238147",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7463037,
+          47.5041497
+        ]
+      },
+      "id": "node/12471238147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12471238866",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7399573,
+          47.5042061
+        ]
+      },
+      "id": "node/12471238866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12471243613",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7431733,
+          47.5045603
+        ]
+      },
+      "id": "node/12471243613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12471683338",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7307469,
+          47.5012173
+        ]
+      },
+      "id": "node/12471683338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12471688673",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7299014,
+          47.5050086
+        ]
+      },
+      "id": "node/12471688673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12471711801",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.732333,
+          47.5031343
+        ]
+      },
+      "id": "node/12471711801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12473520603",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5233881,
+          47.2125357
+        ]
+      },
+      "id": "node/12473520603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12475543235",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5996677,
+          47.2375668
+        ]
+      },
+      "id": "node/12475543235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12475551419",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5996188,
+          47.2378316
+        ]
+      },
+      "id": "node/12475551419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12475751198",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5966816,
+          47.2382451
+        ]
+      },
+      "id": "node/12475751198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12492773274",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4520247,
+          47.3710737
+        ]
+      },
+      "id": "node/12492773274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12492773275",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4519818,
+          47.3711291
+        ]
+      },
+      "id": "node/12492773275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12492773276",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4520129,
+          47.3711212
+        ]
+      },
+      "id": "node/12492773276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12492773277",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4520478,
+          47.3711147
+        ]
+      },
+      "id": "node/12492773277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12504356818",
+        "advertising": "billboard",
+        "support": "billboard",
+        "visibility": "street"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7279688,
+          47.5024303
+        ]
+      },
+      "id": "node/12504356818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12512936209",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4680288,
+          47.3443743
+        ]
+      },
+      "id": "node/12512936209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12512936210",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4682356,
+          47.3441901
+        ]
+      },
+      "id": "node/12512936210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12516805581",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4749478,
+          47.3351198
+        ]
+      },
+      "id": "node/12516805581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12536868303",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4405588,
+          47.2867553
+        ]
+      },
+      "id": "node/12536868303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12537097043",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4386432,
+          47.2868071
+        ]
+      },
+      "id": "node/12537097043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12537097044",
+        "advertising": "billboard"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4389408,
+          47.2868075
+        ]
+      },
+      "id": "node/12537097044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12657397059",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4987542,
+          47.6587942
+        ]
+      },
+      "id": "node/12657397059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12675933803",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.758318,
+          47.5068407
+        ]
+      },
+      "id": "node/12675933803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12684353755",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5414776,
+          47.3973522
+        ]
+      },
+      "id": "node/12684353755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12694885044",
+        "advertising": "column"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6825952,
+          47.5478361
+        ]
+      },
+      "id": "node/12694885044"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+# Core application dependencies
+Flask
+Werkzeug
+Jinja2
+
+# Geospatial processing
+geopandas
+shapely
+pyproj
+fiona
+
+# Data processing
+pandas
+numpy
+
+# Visualization
+folium
+matplotlib
+branca
+
+# Optional utilities for QMD handling
+# GDAL==3.6.4  # Uncomment if needed for QMD processing
+
+# Development tools
+pytest
+flake8
+chardet

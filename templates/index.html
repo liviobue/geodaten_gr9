@@ -1,0 +1,168 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geomarketing Schweiz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        #map-container {
+            height: 700px;
+            width: 100%;
+            border: 1px solid #ddd;
+        }
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .segment-btn.active {
+            background-color: #007bff;
+            color: white;
+        }
+        .stats-card {
+            margin-top: 20px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Geomarketing Schweiz</a>
+        </div>
+    </nav>
+    
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Kundensegmente</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-outline-primary segment-btn active" data-segment="kmu">KMU und Gewerbebetriebe</button>
+                            <button class="btn btn-outline-primary segment-btn" data-segment="handwerk">Handwerksbetriebe</button>
+                            <button class="btn btn-outline-primary segment-btn" data-segment="retail_gastro">Detailhandel & Gastronomie</button>
+                            <button class="btn btn-outline-primary segment-btn" data-segment="service">Dienstleistungsunternehmen</button>
+                            <button class="btn btn-outline-primary segment-btn" data-segment="tourism">Tourismusbranche</button>
+                            <button class="btn btn-outline-primary segment-btn" data-segment="startup">Start-ups</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card stats-card">
+                    <div class="card-header">
+                        <h5>Top 10 Gemeinden</h5>
+                    </div>
+                    <div class="card-body" id="stats-container">
+                        <p>Wählen Sie ein Segment aus, um die Top-Gemeinden zu sehen.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-9">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 id="map-title">Heatmap: KMU und Gewerbebetriebe</h5>
+                    </div>
+                    <div class="card-body">
+                        <div id="map-container">
+                            <iframe id="map-frame" src="{{ url_for('get_map', segment='kmu') }}"></iframe>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card mt-4">
+                    <div class="card-header">
+                        <h5>Legende</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="d-flex align-items-center mb-2">
+                                    <div style="width: 20px; height: 20px; background-color: blue; border-radius: 50%;"></div>
+                                    <div class="ms-2">Öffentliche Hotspots</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="d-flex align-items-center mb-2">
+                                    <div style="width: 20px; height: 20px; background-color: green; border-radius: 50%;"></div>
+                                    <div class="ms-2">Werbeflächen</div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="d-flex align-items-center">
+                                    <div style="width: 100px; height: 20px; background: linear-gradient(to right, #FFEDA0, #FD8D3C, #BD0026);"></div>
+                                    <div class="ms-2">Gewichtung</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Load statistics on page load
+            loadStatistics();
+            
+            // Handle segment button clicks
+            $('.segment-btn').click(function() {
+                // Update active button
+                $('.segment-btn').removeClass('active');
+                $(this).addClass('active');
+                
+                // Get selected segment
+                const segment = $(this).data('segment');
+                
+                // Update map
+                $('#map-frame').attr('src', `/get_map?segment=${segment}`);
+                
+                // Update map title
+                $('#map-title').text('Heatmap: ' + $(this).text());
+                
+                // Load statistics
+                loadStatistics();
+            });
+            
+            function loadStatistics() {
+                // Get active segment
+                const segment = $('.segment-btn.active').data('segment');
+                let segmentName;
+                
+                switch(segment) {
+                    case 'kmu': segmentName = 'KMU'; break;
+                    case 'handwerk': segmentName = 'Handwerk'; break;
+                    case 'retail_gastro': segmentName = 'Retail & Gastro'; break;
+                    case 'service': segmentName = 'Dienstleistungen'; break;
+                    case 'tourism': segmentName = 'Tourismus'; break;
+                    case 'startup': segmentName = 'Startups'; break;
+                    default: segmentName = 'KMU';
+                }
+                
+                // Fetch statistics from API
+                $.getJSON('/api/statistics', function(data) {
+                    const municipalities = data[segmentName];
+                    
+                    let html = '<ol>';
+                    municipalities.forEach(function(municipality) {
+                        html += `<li>${municipality.name} (${(municipality.weight * 100).toFixed(1)}%)</li>`;
+                    });
+                    html += '</ol>';
+                    
+                    $('#stats-container').html(html);
+                });
+            }
+        });
+    </script>
+</body>
+</html>
