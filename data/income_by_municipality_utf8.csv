@@ -175,18 +175,14 @@
 322,Auswil,10,"54,808"
 323,Bannwil,20,"62,213"
 324,Bleienbach,19,"58,660"
-325,Busswil bei Melchnau,X,X
 326,Gondiswil,16,"55,333"
 329,Langenthal,454,"66,444"
 331,Lotzwil,70,"62,989"
 332,Madiswil,89,"60,646"
 333,Melchnau,38,"59,634"
 334,Obersteckholz,12,"60,685"
-335,Oeschenbach,X,X
-336,Reisiswil,X,X
 337,Roggwil (BE),107,"61,409"
 338,Rohrbach,36,"53,817"
-339,Rohrbachgraben,X,X
 340,Rütschelen,13,"58,316"
 341,Schwarzhäusern,16,"69,925"
 342,Thunstetten,96,"64,722"
@@ -2144,7 +2140,6 @@
 6644,Versoix,439,"99,161"
 6645,Veyrier,661,"145,387"
 6702,Boécourt,26,"66,655"
-6703,Bourrignon,X,X
 6704,Châtillon (JU),15,"69,502"
 6706,Courchapoix,11,"57,720"
 6708,Courrendlin,89,"61,475"
@@ -2152,20 +2147,16 @@
 6710,Courtételle,77,"64,736"
 6711,Delémont,344,"63,610"
 6712,Develier,39,"67,605"
-6713,Ederswiler,X,X
-6715,Mervelier,X,X
 6716,Mettembert,3,"60,550"
 6718,Movelier,11,"56,244"
 6719,Pleigne,9,"56,092"
 6721,Rossemaison,24,"71,460"
-6722,Saulcy,X,X
 6724,Soyhières,12,"57,681"
 6729,Haute-Sorne,178,"57,684"
 6730,Val Terbi,83,"61,444"
 6741,Le Bémont (JU),9,"65,685"
 6742,Les Bois,39,"73,723"
 6743,Les Breuleux,56,"81,000"
-6744,La Chaux-des-Breuleux,X,X
 6745,Les Enfers,4,"60,550"
 6748,Les Genevez (JU),14,"61,249"
 6750,Lajoux (JU),18,"57,788"
@@ -2196,15 +2187,3 @@
 6808,Clos du Doubs,30,"53,005"
 6809,Haute-Ajoie,29,"55,893"
 6810,La Baroche,28,"55,312"
-,,,
-Erhebungszeitpunkte/ -zeiträume:,,1.1.2020 – 31.12.2020,31.12.2020
-Quelle(n):,,ESTV,ESTV
-,,,
-X = keine Angabe aus Datenschutzgründen,,,
-,,,
-Statistischer Atlas der Schweiz,,,
-18 - Öffentliche Finanzen > Steuern > Durchschnittliches steuerbares Einkommen > Steuerpflichtige 2020,,,
-Schweiz / Politische Gemeinden / 18.10.2020,,,
-,,,
-Kontakt: statatlas@bfs.admin.ch,,,
-"© Bundesamt für Statistik, ThemaKart, Neuchâtel 2009–2024",,,

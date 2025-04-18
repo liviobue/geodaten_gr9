@@ -1,5 +1,4 @@
 # main.py - Flask application for the geomarketing platform
-
 from flask import Flask, render_template, request, jsonify
 import geopandas as gpd
 import pandas as pd
@@ -9,10 +8,55 @@ from folium.plugins import HeatMap, MarkerCluster
 import numpy as np
 import os
 from shapely.geometry import Point
+from fuzzywuzzy import process
+import pandas as pd
 
 app = Flask(__name__)
 
-# ----- Data Loading Functions -----
+def load_and_merge_income_data(municipalities):
+    """Load income data and merge with municipalities using fuzzy matching, ignoring invalid income values."""
+    try:
+        # Load income data
+        income_df = pd.read_csv('data/income_by_municipality_utf8.csv', header=None)
+        income_df.columns = ['id', 'municipality_name', 'population', 'income']
+        
+        # Clean income data: remove quotes and commas
+        income_df['income'] = income_df['income'].str.replace('"', '').str.replace(',', '')
+        
+        # Filter out rows where income is non-numeric (e.g., 'X')
+        income_df = income_df[income_df['income'].str.replace('.', '', 1).str.isnumeric()]
+        
+        # Convert income to float
+        income_df['income'] = income_df['income'].astype(float)
+        
+        # Normalize income for coloring (scale between 0 and 1)
+        income_min = income_df['income'].min()
+        income_max = income_df['income'].max()
+        income_df['income_normalized'] = (
+            (income_df['income'] - income_min) / (income_max - income_min)
+            if income_max != income_min else 0
+        )
+        
+        # Fuzzy matching to align municipality names
+        municipality_names = municipalities['NAME'].tolist()
+        income_df['matched_name'] = income_df['municipality_name'].apply(
+            lambda x: process.extractOne(x, municipality_names)[0] if pd.notna(x) else None
+        )
+        
+        # Merge with municipalities GeoDataFrame
+        merged = municipalities.merge(
+            income_df[['matched_name', 'income', 'income_normalized']],
+            left_on='NAME',
+            right_on='matched_name',
+            how='left'
+        )
+        
+        return merged
+    
+    except Exception as e:
+        print(f"Error loading or merging income data: {e}")
+        # Return municipalities without income data to prevent map failure
+        return municipalities
 
 def load_hotspots():
     """Load public hotspot locations"""
@@ -76,19 +120,38 @@ def create_heatmap(data=None, weight_column=None, hotspots=None, publicity=None,
         german_municipalities = german_municipalities[['BFS_NUMMER', 'NAME', 'KANTONSNUMMER', 'geometry']].copy()
         german_municipalities['BFS_NUMMER'] = german_municipalities['BFS_NUMMER'].astype(str)
 
-        # Add municipalities
+        # Merge with income data
+        german_municipalities = load_and_merge_income_data(german_municipalities)
+
+        # Define columns for GeoJson based on available data
+        geojson_columns = ['BFS_NUMMER', 'NAME', 'KANTONSNUMMER', 'geometry']
+        tooltip_fields = ['BFS_NUMMER', 'NAME', 'KANTONSNUMMER']
+        tooltip_aliases = ['BFS Number:', 'Name:', 'Canton:']
+
+        # Check if income data is available
+        if 'income' in german_municipalities.columns and 'income_normalized' in german_municipalities.columns:
+            geojson_columns.extend(['income', 'income_normalized'])
+            tooltip_fields.append('income')
+            tooltip_aliases.append('Income (CHF):')
+
+        # Add municipalities with income-based coloring
         folium.GeoJson(
-            german_municipalities[['BFS_NUMMER', 'NAME', 'KANTONSNUMMER', 'geometry']],
+            german_municipalities[geojson_columns],
             style_function=lambda x: {
-                'fillColor': 'transparent',
+                'fillColor': (
+                    '#FF0000' if pd.notna(x['properties'].get('income_normalized')) else '#D3D3D3'
+                ),
+                'fillOpacity': (
+                    x['properties']['income_normalized'] * 0.7 + 0.2
+                    if pd.notna(x['properties'].get('income_normalized')) else 0.2
+                ),
                 'color': '#3388ff',
                 'weight': 1,
-                'fillOpacity': 0
             },
             name='German-Speaking Municipalities',
             tooltip=folium.features.GeoJsonTooltip(
-                fields=['BFS_NUMMER', 'NAME', 'KANTONSNUMMER'],
-                aliases=['BFS Number:', 'Name:', 'Canton:'],
+                fields=tooltip_fields,
+                aliases=tooltip_aliases,
                 localize=True
             )
         ).add_to(m)
@@ -97,7 +160,6 @@ def create_heatmap(data=None, weight_column=None, hotspots=None, publicity=None,
         if hotspots is not None:
             fg_hotspots = folium.FeatureGroup(name="Public Hotspots")
             for _, row in hotspots.iterrows():
-                # Get centroid for polygon features or direct coords for points
                 if row.geometry.geom_type == 'Point':
                     coords = [row.geometry.y, row.geometry.x]
                 else:
@@ -118,7 +180,6 @@ def create_heatmap(data=None, weight_column=None, hotspots=None, publicity=None,
         if publicity is not None:
             fg_publicity = folium.FeatureGroup(name="Publicity Locations")
             for _, row in publicity.iterrows():
-                # Get centroid for polygon features or direct coords for points
                 if row.geometry.geom_type == 'Point':
                     coords = [row.geometry.y, row.geometry.x]
                 else:
@@ -135,26 +196,26 @@ def create_heatmap(data=None, weight_column=None, hotspots=None, publicity=None,
                 ).add_to(fg_publicity)
             fg_publicity.add_to(m)
 
-            # Add competitor locations
-            if competitors is not None:
-                fg_competitors = folium.FeatureGroup(name="Competitors")
-                competitor_cluster = MarkerCluster(name="Competitor Cluster")
-                for _, row in competitors.iterrows():
-                    folium.CircleMarker(
-                        location=[row.geometry.y, row.geometry.x],
-                        radius=5,
-                        color='purple',
-                        fill=True,
-                        fill_opacity=0.7,
-                        popup=f"""
-                            <b>{row['name']}</b><br>
-                            Address: {row['address']}<br>
-                            Type: {row['type']}<br>
-                            Rating: {row['rating'] if pd.notna(row['rating']) else 'N/A'}
-                        """
-                    ).add_to(competitor_cluster)
-                competitor_cluster.add_to(fg_competitors)
-                fg_competitors.add_to(m)
+        # Add competitor locations
+        if competitors is not None:
+            fg_competitors = folium.FeatureGroup(name="Competitors")
+            competitor_cluster = MarkerCluster(name="Competitor Cluster")
+            for _, row in competitors.iterrows():
+                folium.CircleMarker(
+                    location=[row.geometry.y, row.geometry.x],
+                    radius=5,
+                    color='purple',
+                    fill=True,
+                    fill_opacity=0.7,
+                    popup=f"""
+                        <b>{row['name']}</b><br>
+                        Address: {row['address']}<br>
+                        Type: {row['type']}<br>
+                        Rating: {row['rating'] if pd.notna(row['rating']) else 'N/A'}
+                    """
+                ).add_to(competitor_cluster)
+            competitor_cluster.add_to(fg_competitors)
+            fg_competitors.add_to(m)
 
         # Layer control
         folium.LayerControl().add_to(m)
