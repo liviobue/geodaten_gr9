@@ -1,0 +1,2528 @@
+[
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Gäuggelistrasse 20, 7001 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8514267,
+                "lng": 9.5291446
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85277682989272,
+                    "lng": 9.530374279892722
+                },
+                "southwest": {
+                    "lat": 46.85007717010728,
+                    "lng": 9.527674620107279
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Marthaler Treuhand AG",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 3402,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112851780375043130486\">Marthaler Treuhand + Revisionen</a>"
+                ],
+                "photo_reference": "AeeoHcLDC7DgaxVnRtzT4Q8rqQqJkBFUsWkNyIxhnVlrJEbxJS31w0sHqmoCWEcdPaJiUQTWvvpTU6J_7YaoOxj3tJOkMx2E6FQg7DYo-gfq38LV7YokoxiSJuNHi61x4izFLLbcx7blYNuQ0-6KOcnub-9OL4p7PDv5ZMfLTEJQ6VQZLhpyu5aD82wkv34UgwisfYX9hz7h0q0ti23y7HecD6wyz3x1qGcNqB3oTvR5UlYSzTp9Je0PajK9t-RxjOzxSrTyppTwKBX41GNDVtL7zqW94E5l3eGevpwJLFG_DzUg6Qgc_y4",
+                "width": 6048
+            }
+        ],
+        "place_id": "ChIJy9KhtHbHhEcR3-ouqc4sfuQ",
+        "plus_code": {
+            "compound_code": "VG2H+HM Chur",
+            "global_code": "8FRFVG2H+HM"
+        },
+        "rating": 5,
+        "reference": "ChIJy9KhtHbHhEcR3-ouqc4sfuQ",
+        "types": [
+            "real_estate_agency",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 11
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Quaderstrasse 11, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.852463,
+                "lng": 9.532515
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85379627989272,
+                    "lng": 9.533919679892723
+                },
+                "southwest": {
+                    "lat": 46.85109662010728,
+                    "lng": 9.531220020107279
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Adverta Treuhand AG",
+        "opening_hours": {
+            "open_now": false
+        },
+        "place_id": "ChIJNSG0FXfHhEcRWf8g4OWJQpM",
+        "plus_code": {
+            "compound_code": "VG2M+X2 Chur",
+            "global_code": "8FRFVG2M+X2"
+        },
+        "rating": 5,
+        "reference": "ChIJNSG0FXfHhEcRWf8g4OWJQpM",
+        "types": [
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "St. Martinspl. 8, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8481688,
+                "lng": 9.5323618
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.84954252989272,
+                    "lng": 9.53371912989272
+                },
+                "southwest": {
+                    "lat": 46.84684287010727,
+                    "lng": 9.531019470107276
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Grünenfelder & Partner Treuhand AG",
+        "place_id": "ChIJK81FenDHhEcRRtiNz_JvHa8",
+        "plus_code": {
+            "compound_code": "RGXJ+7W Chur",
+            "global_code": "8FRFRGXJ+7W"
+        },
+        "rating": 5,
+        "reference": "ChIJK81FenDHhEcRRtiNz_JvHa8",
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 6
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Alexanderstrasse 18, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8533969,
+                "lng": 9.5316579
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85474127989272,
+                    "lng": 9.532886329892719
+                },
+                "southwest": {
+                    "lat": 46.85204162010728,
+                    "lng": 9.530186670107275
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Hardegger Treuhand AG",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 640,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/103689955616984392415\">A Google User</a>"
+                ],
+                "photo_reference": "AeeoHcJg8JoZjhmSk_oHt3vmdfPGda3B_n63DAVqaRUxM4Bk258VSOkFM2NgZBYkeR2bLs13g9kWJ19bkVqpTDH6EXQomptWjcdceXTIX-bTMWTGYUbtv9YRaz7KRG2UOPczlqH2iPr4fFiFHZg1RjvsZKsZe1wgXj-NSRNB3wEUFsspLYx40drsiGgJpz0hMdhj9-dtvHKSmyeZ3Tilg97XM4sj96Knc1vsDxxkmOHuhJLvTwmG1AaQItsooZIQaYANRClZDzXQp80oGXhj-Q2mGE6SShz9mafjrmwL-sdwzMOLSM8cgjc",
+                "width": 960
+            }
+        ],
+        "place_id": "ChIJUybgHnfHhEcR7qdAQMuuXXc",
+        "plus_code": {
+            "compound_code": "VG3J+9M Chur",
+            "global_code": "8FRFVG3J+9M"
+        },
+        "rating": 4.9,
+        "reference": "ChIJUybgHnfHhEcR7qdAQMuuXXc",
+        "types": [
+            "accounting",
+            "real_estate_agency",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 17
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Quaderstrasse 18, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.852289,
+                "lng": 9.533339999999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85369757989272,
+                    "lng": 9.534649379892722
+                },
+                "southwest": {
+                    "lat": 46.85099792010728,
+                    "lng": 9.531949720107278
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Bearth & Partner Steuerberatung und Treuhand AG",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 642,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113775642339507694913\">A Google User</a>"
+                ],
+                "photo_reference": "AeeoHcL663O5tAz23g3Gx92VUAuWMsZ4KkWEUbHmcoZ_7eXNCU2Phoi3wvKho4fHfpWL8KJXjTk4mYN5aqPge61yMrQqgzN3HfrD_y3iWplcJlY8frLxxYjOVScg7FwYjO7zTFtvql4mNvEIpE9lJu-o-DnPfzoC0zrLgsiDzf5XTKo6zTDNizEryIwNsKgsHupwtrb9otAoTLenc4OhB4OXHna9eFAv8boPQwc3RFzOfAZB78WwxoIUZIxUB_p1aPZEP6Wg0D6n2raQEf0g0ezVYBgNHB-hi0hwmSdE1IQ0mHvUSv0fDcY",
+                "width": 642
+            }
+        ],
+        "place_id": "ChIJOz3Vl3fHhEcR91ItHBlDw0A",
+        "plus_code": {
+            "compound_code": "VG2M+W8 Chur",
+            "global_code": "8FRFVG2M+W8"
+        },
+        "rating": 5,
+        "reference": "ChIJOz3Vl3fHhEcR91ItHBlDw0A",
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 5
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Spundisstrasse 21/Gebäude 2, 2. OG, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8464647,
+                "lng": 9.5008681
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.84780907989273,
+                    "lng": 9.50213522989272
+                },
+                "southwest": {
+                    "lat": 46.84510942010728,
+                    "lng": 9.499435570107277
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "CALANDA Treuhand AG",
+        "photos": [
+            {
+                "height": 1900,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112364535227204522224\">Josef Bergt</a>"
+                ],
+                "photo_reference": "AeeoHcIFVNAdoW2jDfLjpA98uUX15sSD0tTqoGY24L5XI2e_1IJ3RV9rM2t2p-YBkeXtpUKCjYcVxLJTtqYpgJhMupZj7IKoPWP4vi45bFxYrEDogB2zyEXTjCr0aqrzQmYQ82o8lkqQtHSN8wrPwQE54KXqhb6m07U4Sc2qlNWj-8DYzAeYcDZBDGrKGwxW248QhO8OCj8zvrrWibNvKM5WpErCR_CBoA1YoBa_HM3H4MluXJxZRlEP_-2qh_tHtbYQDeC7LbqfQfZWpefSkYMTwWnngFwk_HhHtmqZ2HN4lDAmg30vhXA",
+                "width": 1063
+            }
+        ],
+        "place_id": "ChIJ25fg_ynHhEcRrIilnGWKSLM",
+        "plus_code": {
+            "compound_code": "RGW2+H8 Chur",
+            "global_code": "8FRFRGW2+H8"
+        },
+        "rating": 5,
+        "reference": "ChIJ25fg_ynHhEcRrIilnGWKSLM",
+        "types": [
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Quaderstrasse 22, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8523386,
+                "lng": 9.5334302
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85370587989271,
+                    "lng": 9.53481757989272
+                },
+                "southwest": {
+                    "lat": 46.85100622010727,
+                    "lng": 9.532117920107277
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Rezia Treuhand AG",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 715,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/118185122507047064165\">A Google User</a>"
+                ],
+                "photo_reference": "AeeoHcKHfQhYkKk_AwpQRGtR2k6pNLneXsOAxlNCYHUBW4a8w2-T-9C2pupPDJFiOQzvvzzFkozFdmDhQKx2dxI0r2OdC_z-boFa_VL3NhQbhy4qlNBPNa8UtvWzIO-4y1PEYZuAaLzYlD73UPru5CNp1yIDYPAua8TpOXhFOrY-obf8WuOfIpSnYZhOpo_U67qsfvTOABC2ZV1rpeyPwP-nfDEgLaTGnJ6LK2t7skUO5q3fhbN7wlTNM-1ORe2RhUECz94OiV2MB0SL5R4mod57biSKD7oAbF7MSw_hTstRpeieK640bIA",
+                "width": 702
+            }
+        ],
+        "place_id": "ChIJkxXGEnHHhEcRaVLlRE_fmPA",
+        "plus_code": {
+            "compound_code": "VG2M+W9 Chur",
+            "global_code": "8FRFVG2M+W9"
+        },
+        "rating": 3,
+        "reference": "ChIJkxXGEnHHhEcRaVLlRE_fmPA",
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Herrengasse 7, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.84851399999999,
+                "lng": 9.5312055
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.84986217989272,
+                    "lng": 9.532565879892722
+                },
+                "southwest": {
+                    "lat": 46.84716252010727,
+                    "lng": 9.529866220107278
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "TNT Treuhand & Revisionen AG - Chur",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 318,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112565817725166468108\">TNT Treuhand und Revisionen</a>"
+                ],
+                "photo_reference": "AeeoHcJbkD8yehMisA2ANTgLqNlLk4VfnvWlofrkwA5gKr-rwTtAo37AoS3Ox0tnXSM5GA6buAUSUmd28VMulpvfyMXWJiCRnp2tLdexWa6VtYzIxqwpYPbEpXYS8n9wFtsYMc_9hp-IEjzrfQ4nHPxFWD7o_mChYiNLa4WOyGOR_SmFUzZB4wU6xE4kvBLfr6K9KvD6TOKjiTOsRKnkIJHWIlzO6_-c2rQSvrwuyyvnb3w4d0t3sNbdyWnbNJB-YizK2rgcYyUiAckAchTlXbrXuDtrRyblvm7CTcoH1byAXlPbo02F3z0",
+                "width": 675
+            }
+        ],
+        "place_id": "ChIJE5KbpBLHhEcR7UnHi1pUXg8",
+        "plus_code": {
+            "compound_code": "RGXJ+CF Chur",
+            "global_code": "8FRFRGXJ+CF"
+        },
+        "rating": 5,
+        "reference": "ChIJE5KbpBLHhEcR7UnHi1pUXg8",
+        "types": [
+            "real_estate_agency",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Grabenstrasse 15, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8508647,
+                "lng": 9.5324723
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85227257989272,
+                    "lng": 9.53378772989272
+                },
+                "southwest": {
+                    "lat": 46.84957292010728,
+                    "lng": 9.531088070107277
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Curia AG - Wirtschaftsberatung und Wirtschaftsprüfung",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 1973,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/114935101373974816876\">Curia Treuhand AG</a>"
+                ],
+                "photo_reference": "AeeoHcLEdMQpDDYUvud6qDn8P_T-rcNmgQ7fkkVzcAQJO-6ozSm7UA-PtWDKW_kQEgc4rsfzIkiwE4m7FBTq9MK116h-jda1HYv7p7sl1Lh1xayhNEBZbo8QXGtZDX7Ww0h_S3OmJHZIQUBPiwOx_BGuWat4nlKlHdn_LoBfCtzR9TEGny5aejgMZUJ4jC30E015oSB8xnljJmtLTasRfdsrYk8M18j760xdhp5FUrZXRGMSANpBWS_JswkCs2V4ahyibdMQw_pOPdJLFZwEIqg9ad30WWSuuqjkSh5cI43yIn9cFHnsc4Y",
+                "width": 2048
+            }
+        ],
+        "place_id": "ChIJXXjxtHDHhEcR2-jfltkbN_8",
+        "plus_code": {
+            "compound_code": "VG2J+8X Chur",
+            "global_code": "8FRFVG2J+8X"
+        },
+        "rating": 4.3,
+        "reference": "ChIJXXjxtHDHhEcR2-jfltkbN_8",
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 6
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Bolettastrasse 1, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8473153,
+                "lng": 9.5204278
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.84867842989272,
+                    "lng": 9.521906929892722
+                },
+                "southwest": {
+                    "lat": 46.84597877010728,
+                    "lng": 9.519207270107279
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "G T C Germann Treuhand Chur",
+        "opening_hours": {
+            "open_now": false
+        },
+        "place_id": "ChIJW5DFqnLHhEcRimVGQ_ZtqN4",
+        "plus_code": {
+            "compound_code": "RGWC+W5 Chur",
+            "global_code": "8FRFRGWC+W5"
+        },
+        "rating": 5,
+        "reference": "ChIJW5DFqnLHhEcRimVGQ_ZtqN4",
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Hartbertstrasse 9, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8530917,
+                "lng": 9.532231
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85445747989272,
+                    "lng": 9.533662979892721
+                },
+                "southwest": {
+                    "lat": 46.85175782010727,
+                    "lng": 9.530963320107277
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "BMU Treuhand AG",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 1365,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112324871177594055256\">BMU Treuhand AG</a>"
+                ],
+                "photo_reference": "AeeoHcJDrMT4mfzYs60Ykx9_Frms1FmJrmkBM0ezfLWIUlztpFKRdr3cLlexBsP-bvgdoh-q5OpvfddGRlHGn6uUexZWjo1Hb14JgFo-pY-fy0GcNgOnAxa3nXpiL6ZUzgcXyLSQ4ijyWzKc8sfyekMZj0VT8mTOit03lZyQvIS50vKug9RDbb7BBrXVIuUhysPoJ35td1Zumq6f5LWpgn2gadEA670r0jPqn4hwccU-Ch0pXL44QZgxSQNQlCfHrCWxNZvTxPODJDzpynbd_U3dIl1KrttYHWsiiYNOqTBPwzyv8BN-mjg",
+                "width": 2048
+            }
+        ],
+        "place_id": "ChIJA419BXfHhEcR3kuovyoXSGg",
+        "plus_code": {
+            "compound_code": "VG3J+6V Chur",
+            "global_code": "8FRFVG3J+6V"
+        },
+        "rating": 5,
+        "reference": "ChIJA419BXfHhEcR3kuovyoXSGg",
+        "types": [
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 6
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Quaderstrasse 36, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8525042,
+                "lng": 9.5354239
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85393827989272,
+                    "lng": 9.536756929892722
+                },
+                "southwest": {
+                    "lat": 46.85123862010728,
+                    "lng": 9.534057270107278
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Manser Treuhand Chur GmbH",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 709,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116934843698007687323\">Manser Treuhand Chur GmbH</a>"
+                ],
+                "photo_reference": "AeeoHcIkEnQY_E-pGS1cvAqTa0Zf-KoDReyTb9mHTEyMumIGOngGssUwYIzGK7xWI9oNL9n9s3M7aYtLwzF8o5yuemw6zijv6b122P6NhmOgVatmVha--m5QI5Bxey8XWftEC-dcF8B4AJpShif4cuUS7NLKbiObaThlK6oBdyAJdGxsHz6zmq12yCFrZlElP2LgQArO-I9-Zd-8XISqiMDb71RVg125aqezVR4BXj_CaHuvJXM4ttzEWWNWUP8yzM64LcT-NGiEJFLjjWfCH5rlSK9JwJ69jW94U5aPgVu-4N0oQ_tHBdY",
+                "width": 1417
+            }
+        ],
+        "place_id": "ChIJ4xxcQJzHhEcRwGFiYz9Ot3s",
+        "plus_code": {
+            "compound_code": "VG3P+25 Chur",
+            "global_code": "8FRFVG3P+25"
+        },
+        "rating": 5,
+        "reference": "ChIJ4xxcQJzHhEcRwGFiYz9Ot3s",
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Theaterweg 11, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8519252,
+                "lng": 9.534334
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85331012989273,
+                    "lng": 9.53556012989272
+                },
+                "southwest": {
+                    "lat": 46.85061047010728,
+                    "lng": 9.532860470107277
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Catrina + Scherrer Treuhand AG",
+        "opening_hours": {
+            "open_now": false
+        },
+        "place_id": "ChIJAz4uXnfHhEcRvdmDsHeG3pw",
+        "plus_code": {
+            "compound_code": "VG2M+QP Chur",
+            "global_code": "8FRFVG2M+QP"
+        },
+        "rating": 5,
+        "reference": "ChIJAz4uXnfHhEcRvdmDsHeG3pw",
+        "types": [
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Theaterweg 11, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8520568,
+                "lng": 9.533888400000002
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85335787989272,
+                    "lng": 9.53523787989272
+                },
+                "southwest": {
+                    "lat": 46.85065822010728,
+                    "lng": 9.532538220107277
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Fiduciar Treuhand AG",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 743,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/102297228605918595539\">A Google User</a>"
+                ],
+                "photo_reference": "AeeoHcIgbZhefYcs4jpn7CLcTWba--o4PLEXnfY9HqSNenbCUJ-xhWA8KEnkeGEv5g85kj806nhAE5qYCV7Te78GXXfWiHUUgAi4jdcG28nYi3PKd5lfgOtx_6ZjsDBMikXHPst5RiC5SGSwC0Xnrn9sDhpcWfSHeaC25UHEbIaU0aOirrXSwMHNKDFD_fhdRHyEZwA-G2mSEnflbqej3whVdHrIQWTSkTMh5xjjqkB3e4_O-FMJMfVqjI1f2l4Ha7R-A_QFsfdWn0d6yO8ZiOzXyZZ1kV4TCCRgnCwIQ5eTpaWSkoWRb1A",
+                "width": 532
+            }
+        ],
+        "place_id": "ChIJAz4uXnfHhEcRHXy5SXs_2rs",
+        "plus_code": {
+            "compound_code": "VG2M+RH Chur",
+            "global_code": "8FRFVG2M+RH"
+        },
+        "rating": 2.3,
+        "reference": "ChIJAz4uXnfHhEcRHXy5SXs_2rs",
+        "types": [
+            "real_estate_agency",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 18
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Bahnhofstrasse 8, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8529225,
+                "lng": 9.5299818
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85445772989272,
+                    "lng": 9.53141622989272
+                },
+                "southwest": {
+                    "lat": 46.85175807010727,
+                    "lng": 9.528716570107276
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "treuhand marugg + imsand ag",
+        "opening_hours": {
+            "open_now": false
+        },
+        "place_id": "ChIJ_Xff7xzHhEcRzL-gshjEw04",
+        "plus_code": {
+            "compound_code": "VG3H+5X Chur",
+            "global_code": "8FRFVG3H+5X"
+        },
+        "rating": 5,
+        "reference": "ChIJ_Xff7xzHhEcRzL-gshjEw04",
+        "types": [
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Obere Plessurstrasse 39, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8496594,
+                "lng": 9.5268333
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85102182989272,
+                    "lng": 9.52818807989272
+                },
+                "southwest": {
+                    "lat": 46.84832217010727,
+                    "lng": 9.525488420107276
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "W&P AG Treuhand Steuern Wirtschaftsprüfung",
+        "opening_hours": {
+            "open_now": false
+        },
+        "place_id": "ChIJ36jd0HPHhEcR5kjZSNeSjIM",
+        "plus_code": {
+            "compound_code": "RGXG+RP Chur",
+            "global_code": "8FRFRGXG+RP"
+        },
+        "rating": 4.5,
+        "reference": "ChIJ36jd0HPHhEcR5kjZSNeSjIM",
+        "types": [
+            "accounting",
+            "real_estate_agency",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Quaderstrasse 7, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.852445,
+                "lng": 9.532192
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85371282989272,
+                    "lng": 9.533572629892722
+                },
+                "southwest": {
+                    "lat": 46.85101317010728,
+                    "lng": 9.530872970107279
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "PROCURA-Treuhand AG",
+        "place_id": "ChIJ6Vu0F3fHhEcR-3Ha6qiPg2A",
+        "plus_code": {
+            "compound_code": "VG2J+XV Chur",
+            "global_code": "8FRFVG2J+XV"
+        },
+        "rating": 2.5,
+        "reference": "ChIJ6Vu0F3fHhEcR-3Ha6qiPg2A",
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Ringstrasse 14, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8506156,
+                "lng": 9.513810999999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85194952989271,
+                    "lng": 9.515060079892722
+                },
+                "southwest": {
+                    "lat": 46.84924987010727,
+                    "lng": 9.512360420107278
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "allenspach & felix ag, treuhand, immobilien, wirtschaftsprüfung",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 453,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/102913180017367580715\">allenspach &amp; felix ag, treuhand, immobilien, wirtschaftsprüfung</a>"
+                ],
+                "photo_reference": "AeeoHcJV6h8dg357be__y6Ma5XG6mVdZ-8DbIoEPL76LE0ctcV9JapeMxpnZMyEn6FAlU9eRcRjRJ3RZkH9dzrzcxAGHGSMpluMeJ9iCM6qQhX6ySKdH51H6-BnK_TjdtralwQtYSUIg4ZFzPR5izC4Uac8Ur-dB9XLbavaO11pwBFU1JOhVh1X6NyGwzPCWbf62Hfar1DYBT-0y5oA2OP5ks454zU16PMwrbihpZQ-wR95ccve_PDdbBEDGl_0yrXOhBylD2C0rZyW85GgQkuliNwX6uM-z2fzJRNZwmd1rkpjaI6UF8JM",
+                "width": 1193
+            }
+        ],
+        "place_id": "ChIJgyhijA7HhEcRs1bOMpWbRLM",
+        "plus_code": {
+            "compound_code": "VG27+6G Chur",
+            "global_code": "8FRFVG27+6G"
+        },
+        "rating": 2.7,
+        "reference": "ChIJgyhijA7HhEcRs1bOMpWbRLM",
+        "types": [
+            "accounting",
+            "real_estate_agency",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 3
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Quaderstrasse 11, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8522337,
+                "lng": 9.5324584
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85354827989272,
+                    "lng": 9.53391707989272
+                },
+                "southwest": {
+                    "lat": 46.85084862010728,
+                    "lng": 9.531217420107277
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Advisa Treuhand Renate Gujan Niederer",
+        "opening_hours": {
+            "open_now": false
+        },
+        "place_id": "ChIJL70cJHXHhEcR_-D6aL0Pvuo",
+        "plus_code": {
+            "compound_code": "VG2J+VX Chur",
+            "global_code": "8FRFVG2J+VX"
+        },
+        "rating": 5,
+        "reference": "ChIJL70cJHXHhEcR_-D6aL0Pvuo",
+        "types": [
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 3
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Quaderstrasse 11, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8524487,
+                "lng": 9.532446199999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85379497989273,
+                    "lng": 9.53388572989272
+                },
+                "southwest": {
+                    "lat": 46.85109532010728,
+                    "lng": 9.531186070107276
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Pfister & Sax - Immobilien und Treuhand AG",
+        "photos": [
+            {
+                "height": 1683,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/116956024087642449054\">A Google User</a>"
+                ],
+                "photo_reference": "AeeoHcJsO6l7eIqTTboF64CNGCDGgWt1QLUW1w2MSCBFywZI1qgq0c_G_GUaKjKOoiICpEWC4AdKG2cSmxAS59J5biYDB2nrIl_P4Ruql2e3NbupmmV5knodoR_2v0fn-1kCuny8iEI_RoKogYzEUwFjM7NOIbIiKQLvsKVycbBg8kFqZz5DQd7EYTnfb0LXDxKQP9hC05fDD1sC1OjArPB3KgTaXEvz6evPTRFOzrSTFCBsl33Esvjz7qRqBtFOod8RNkIOg275pOlC_0SiH1J7zIZK-h4sC1gnf7koLGpEk8Hcn0aVsl8",
+                "width": 1198
+            }
+        ],
+        "place_id": "ChIJq6raFXfHhEcRdr1_YgQzpSo",
+        "plus_code": {
+            "compound_code": "VG2J+XX Chur",
+            "global_code": "8FRFVG2J+XX"
+        },
+        "rating": 3.9,
+        "reference": "ChIJq6raFXfHhEcRdr1_YgQzpSo",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 7
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Rossbodenstrasse 33, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8491677,
+                "lng": 9.505468100000002
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85044692989273,
+                    "lng": 9.506687979892723
+                },
+                "southwest": {
+                    "lat": 46.84774727010728,
+                    "lng": 9.503988320107279
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "TREU Hand und Fuss",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 780,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/113007740632135647942\">A Google User</a>"
+                ],
+                "photo_reference": "AeeoHcKhIe_zOz_mBVRXZyisbDN-QlYXFXS_wWdypsrvRRHV8dsuHHV3Cc8hPSGs5NfWApn1cvk6tVx5B_baZoazn3P2hLvd3oc15aNzqj20DaY7JTrjrT3VPTSaZFlThpGew5NO2IRhGCM9IzFImekbfcWfIQ3b0UcrF8LEz2repA2edsTFCzfBUn2Jvk_qSW1v9axxnKq5KLK0EY8PzEEK884qjIeGCXXsoLnmtReosbHxef5p2Ib5khSMfFy2tADSL64UdvYPrA2UhQ0cJtPqQWJw9pZBrIBoMHW0ngUKeT7ZIDh-rSY",
+                "width": 1600
+            }
+        ],
+        "place_id": "ChIJSUuyAS7HhEcRbInAgapCdEo",
+        "plus_code": {
+            "compound_code": "RGX4+M5 Chur",
+            "global_code": "8FRFRGX4+M5"
+        },
+        "rating": 5,
+        "reference": "ChIJSUuyAS7HhEcRbInAgapCdEo",
+        "types": [
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Masanserstrasse 136, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8616995,
+                "lng": 9.534837699999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.86304562989271,
+                    "lng": 9.535936729892722
+                },
+                "southwest": {
+                    "lat": 46.86034597010726,
+                    "lng": 9.533237070107278
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Alfina Treuhand AG",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 1018,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112411853676667475202\">A Google User</a>"
+                ],
+                "photo_reference": "AeeoHcJ459FHZiXxmc4jM-eHVCzWW3mLFEf9I-vvKa5FHONNCac047BsT0ANzrE_tFbwFB15tikhEmqZ7SL04bBdYqWF07MR5yVLaFGLNjwslIcZni8t8BeIWG-tAoiK6SQGnZhd0uh6Nho950ynyQ3ahkGXO7_knzfPBVm86tzvMaurYj9mWVya6Md4v4IlppnRtJLMziQHMyUP8Mjz-87Qsz5ncqqlMkyYRN9Jbrva5Qs7pZCzIiKMzzPqU5-KfjmZEg-OxSo27XB5OlMryum3jhbEOW00uLXVDdjzd6-H8wBNuDvkyxE",
+                "width": 1862
+            }
+        ],
+        "place_id": "ChIJ5VRkZZTHhEcR8F1WnUzOnQM",
+        "plus_code": {
+            "compound_code": "VG6M+MW Chur",
+            "global_code": "8FRFVG6M+MW"
+        },
+        "rating": 4.2,
+        "reference": "ChIJ5VRkZZTHhEcR8F1WnUzOnQM",
+        "types": [
+            "accounting",
+            "real_estate_agency",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 14
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Bondastrasse 32, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8577026,
+                "lng": 9.5431449
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85907792989272,
+                    "lng": 9.54445257989272
+                },
+                "southwest": {
+                    "lat": 46.85637827010728,
+                    "lng": 9.541752920107276
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Rupp Treuhand AG",
+        "opening_hours": {
+            "open_now": false
+        },
+        "place_id": "ChIJv9lpdoHHhEcRXNhwbeFzOvw",
+        "plus_code": {
+            "compound_code": "VG5V+36 Chur",
+            "global_code": "8FRFVG5V+36"
+        },
+        "rating": 2.3,
+        "reference": "ChIJv9lpdoHHhEcRXNhwbeFzOvw",
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 9
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Bahnhofstrasse 8, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8529414,
+                "lng": 9.529974
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85446717989272,
+                    "lng": 9.53140792989272
+                },
+                "southwest": {
+                    "lat": 46.85176752010728,
+                    "lng": 9.528708270107277
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Danuser Treuhand",
+        "place_id": "ChIJY4X76HbHhEcRBb2qjReciG0",
+        "plus_code": {
+            "compound_code": "VG3H+5X Chur",
+            "global_code": "8FRFVG3H+5X"
+        },
+        "rating": 5,
+        "reference": "ChIJY4X76HbHhEcRBb2qjReciG0",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Poststrasse 22, 7002 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8494878,
+                "lng": 9.532133499999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85084802989272,
+                    "lng": 9.533566629892722
+                },
+                "southwest": {
+                    "lat": 46.84814837010728,
+                    "lng": 9.530866970107278
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "RRT AG Treuhand und Revision",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 1600,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/103015876611369117080\">A Google User</a>"
+                ],
+                "photo_reference": "AeeoHcKNacM5y6b6tja7MfEdc89xWF-0xWrnyoblSx2ljcslS8IVLgLuDEoHSiYddCXbg8HXsFIEM7vNh5Q5OLX3B-lzloSVpWW3Vmkd5f_83c4Iffp1zQsqEF5nKxO-JJL963zvEQnzdWso-0Vp9F1tIOO9WXYeMfCTXTL1txxHDc2xjjJ4o5-HSlagbYKWLlGcAWAnjZ7nKY-BqHqQ0VgkbBRPYsVq-3HX1O8oXVppeIUUYxFCjq_PmDhhaIfTBPVZEt3NYyEVqwvytvIjo3wJSOzRYWr9uNtJfNTPK3J_DtkJ7gbtf5c",
+                "width": 2400
+            }
+        ],
+        "place_id": "ChIJNc_ck3DHhEcRm4w2rupO-p0",
+        "plus_code": {
+            "compound_code": "RGXJ+QV Chur",
+            "global_code": "8FRFRGXJ+QV"
+        },
+        "rating": 3,
+        "reference": "ChIJNc_ck3DHhEcRm4w2rupO-p0",
+        "types": [
+            "accounting",
+            "real_estate_agency",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 12
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Hartbertstrasse 1, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.85258229999999,
+                "lng": 9.5325321
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85393122989272,
+                    "lng": 9.533845229892723
+                },
+                "southwest": {
+                    "lat": 46.85123157010727,
+                    "lng": 9.53114557010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Gadient Treuhand",
+        "place_id": "ChIJh2NWsgLHhEcRs9_iZsnWhuQ",
+        "plus_code": {
+            "compound_code": "VG3J+2X Chur",
+            "global_code": "8FRFVG3J+2X"
+        },
+        "rating": 5,
+        "reference": "ChIJh2NWsgLHhEcRs9_iZsnWhuQ",
+        "types": [
+            "real_estate_agency",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Brandisstrasse 8, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.854149,
+                "lng": 9.533478
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85558332989272,
+                    "lng": 9.534755479892722
+                },
+                "southwest": {
+                    "lat": 46.85288367010728,
+                    "lng": 9.532055820107278
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Mittner + Partner",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 3855,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/107804528377293347415\">A Google User</a>"
+                ],
+                "photo_reference": "AeeoHcK0ti0sAeQEH_Rb0lI2d2EyfbGp5J7h9_PNZOpVA2LlZjaAaJ8UhddQKu_6bDE4L8XHzEOkhZIVooqKN_sD8BhtiiV_4OyAJH3_lGaeYic1YMZlnmFAsCy8afX4kC3oN52icFub8o0op7_qX-NuDJwiSVLPlnbjFQk6R8dKQ7JxHYQm076xlTPZE7v8V-ej1z1VkyItweN79v2-HO_IJ_04zhsH1cvXB1ybT5LUAuAL1HwSaSSxVrGDaUihoKuohQyizWQ5_I2dsF8UNEUuQLCZ_BY9Vwgn9z3Gnth2egwQyGVWte8",
+                "width": 2570
+            }
+        ],
+        "place_id": "ChIJqcqVl3fHhEcR_BKjdoEwzBM",
+        "plus_code": {
+            "compound_code": "VG3M+M9 Chur",
+            "global_code": "8FRFVG3M+M9"
+        },
+        "rating": 3.5,
+        "reference": "ChIJqcqVl3fHhEcR_BKjdoEwzBM",
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 4
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Bahnhofstrasse 9, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8526844,
+                "lng": 9.530890399999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85401602989272,
+                    "lng": 9.532433829892723
+                },
+                "southwest": {
+                    "lat": 46.85131637010728,
+                    "lng": 9.529734170107279
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Manetsch Treuhand AG",
+        "place_id": "ChIJlQHH5nbHhEcRR81_7Shqty0",
+        "plus_code": {
+            "compound_code": "VG3J+39 Chur",
+            "global_code": "8FRFVG3J+39"
+        },
+        "rating": 2,
+        "reference": "ChIJlQHH5nbHhEcRR81_7Shqty0",
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 2
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Waldhaus CH, Promenada 15, 7018 Flims, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8535697,
+                "lng": 9.5309154
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85491487989272,
+                    "lng": 9.53210552989272
+                },
+                "southwest": {
+                    "lat": 46.85221522010728,
+                    "lng": 9.529405870107276
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "treuhand-kanzlei ag",
+        "place_id": "ChIJJbzTFHrchEcRSxKMKojNWDo",
+        "plus_code": {
+            "compound_code": "VG3J+C9 Flims",
+            "global_code": "8FRFVG3J+C9"
+        },
+        "rating": 5,
+        "reference": "ChIJJbzTFHrchEcRSxKMKojNWDo",
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Gäuggelistrasse 25, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8512577,
+                "lng": 9.527935399999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85263972989272,
+                    "lng": 9.529222479892722
+                },
+                "southwest": {
+                    "lat": 46.84994007010727,
+                    "lng": 9.526522820107278
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Treuhandbüro R. Sulzer",
+        "opening_hours": {
+            "open_now": false
+        },
+        "place_id": "ChIJBYrFVXHHhEcRuvna00bkYdc",
+        "plus_code": {
+            "compound_code": "VG2H+F5 Chur",
+            "global_code": "8FRFVG2H+F5"
+        },
+        "reference": "ChIJBYrFVXHHhEcRuvna00bkYdc",
+        "types": [
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Ottostrasse 29, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8536486,
+                "lng": 9.5336192
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85496002989272,
+                    "lng": 9.534956879892722
+                },
+                "southwest": {
+                    "lat": 46.85226037010728,
+                    "lng": 9.532257220107278
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "michel · dünser & partner ag - treuhand- & unternehmensberatung",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 1190,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/103080471265089472648\">A Google User</a>"
+                ],
+                "photo_reference": "AeeoHcIZ-rBIIiGVm_aMetgU8bZ9s4D4XbKafsi0ZF0BRDCi99OoUPPitvv3Kah9Fv_XjYngFXxnqdlqK4Cf7pW1P40lp90M0hUF2fld5ahpW9F0cePT4RtRMR-m17ojOLUjSbFIDDEPQF4webqTC9EAqfOd6v9FsVB9UJ7xV9rjzUC3mzEbtiA5opTzEN94nqGvhwJDe7mhoVufU17IZqnKt0rqd9fyXHBe4f85mxL0PjnfNZhZ7sVfKn-hiIEDF8IWy-cZaqQrArMfZe315JdBkn1f2ACDxG6ZuiyIAEZOks6AO012xmU",
+                "width": 2000
+            }
+        ],
+        "place_id": "ChIJ9dneoJDHhEcRbtwKmKS9onM",
+        "plus_code": {
+            "compound_code": "VG3M+FC Chur",
+            "global_code": "8FRFVG3M+FC"
+        },
+        "rating": 5,
+        "reference": "ChIJ9dneoJDHhEcRbtwKmKS9onM",
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 4
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Bahnhofstrasse 14, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.851971,
+                "lng": 9.5308543
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85347692989273,
+                    "lng": 9.532475079892722
+                },
+                "southwest": {
+                    "lat": 46.85077727010728,
+                    "lng": 9.529775420107278
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "W&P Immo-Grischa AG",
+        "opening_hours": {
+            "open_now": false
+        },
+        "place_id": "ChIJffHSDvHHhEcRF3mdIyzNDfo",
+        "plus_code": {
+            "compound_code": "VG2J+Q8 Chur",
+            "global_code": "8FRFVG2J+Q8"
+        },
+        "rating": 3.6,
+        "reference": "ChIJffHSDvHHhEcRF3mdIyzNDfo",
+        "types": [
+            "real_estate_agency",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 9
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Comercialstrasse 34, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8470032,
+                "lng": 9.5082799
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.84837492989272,
+                    "lng": 9.50992077989272
+                },
+                "southwest": {
+                    "lat": 46.84567527010727,
+                    "lng": 9.507221120107276
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Blancuria GmbH",
+        "opening_hours": {
+            "open_now": false
+        },
+        "place_id": "ChIJgRMFIBrHhEcRLKN1DKzbmXY",
+        "plus_code": {
+            "compound_code": "RGW5+R8 Chur",
+            "global_code": "8FRFRGW5+R8"
+        },
+        "rating": 5,
+        "reference": "ChIJgRMFIBrHhEcRLKN1DKzbmXY",
+        "types": [
+            "accounting",
+            "real_estate_agency",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 8
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Bahnhofstrasse 40, 7001 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8511733,
+                "lng": 9.531635500000002
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85237087989272,
+                    "lng": 9.533152879892723
+                },
+                "southwest": {
+                    "lat": 46.84967122010728,
+                    "lng": 9.53045322010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Russi & Partner AG",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 1083,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/106913182134162899536\">A Google User</a>"
+                ],
+                "photo_reference": "AeeoHcKuuK5N7CFFCAcF20opfUmU9YqR9GSk5jdUj4yNfvWVpZ8MPOaqUI4PRy2-NQ3rIb_8l8txkllZZk_a5OypTo4rKjm-B9edtjk2j5xwfJb6SBVAadbbLmS1t12q8CFpGXOBa5G0905T-1J7ckGgVzRx37h628JjL06c1IdivfdKPYTkOFMR-76ICkATaTET6knNS_doRshUUKNSrhsaCfDR-flPwdbxTE9xAq0PtMww3_nmw4OMkh9HBNefZpQbb98OhJw2Cpz6aeElgb6Xl9F4yS5Pi3PgicmwTFAnx7dbAXXdCn8",
+                "width": 938
+            }
+        ],
+        "place_id": "ChIJH1z7T4y8hEcRvL5EKdoN8Og",
+        "plus_code": {
+            "compound_code": "VG2J+FM Chur",
+            "global_code": "8FRFVG2J+FM"
+        },
+        "rating": 5,
+        "reference": "ChIJH1z7T4y8hEcRvL5EKdoN8Og",
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 1
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Bahnhofstrasse 8, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.852675,
+                "lng": 9.530403999999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85433397989271,
+                    "lng": 9.531583679892723
+                },
+                "southwest": {
+                    "lat": 46.85163432010727,
+                    "lng": 9.528884020107277
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Berger Immobilien Treuhand AG",
+        "opening_hours": {
+            "open_now": false
+        },
+        "place_id": "ChIJY4X76HbHhEcRK0uYfg9N7tQ",
+        "plus_code": {
+            "compound_code": "VG3J+35 Chur",
+            "global_code": "8FRFVG3J+35"
+        },
+        "rating": 3.6,
+        "reference": "ChIJY4X76HbHhEcRK0uYfg9N7tQ",
+        "types": [
+            "real_estate_agency",
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 23
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Alexanderstrasse 2, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8524277,
+                "lng": 9.5316411
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85368267989272,
+                    "lng": 9.532870829892722
+                },
+                "southwest": {
+                    "lat": 46.85098302010728,
+                    "lng": 9.530171170107279
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Kmu Treuhand Und Revisions Ag",
+        "opening_hours": {
+            "open_now": false
+        },
+        "place_id": "ChIJw1msGHfHhEcRJFQ_SFX8bAU",
+        "plus_code": {
+            "compound_code": "VG2J+XM Chur",
+            "global_code": "8FRFVG2J+XM"
+        },
+        "reference": "ChIJw1msGHfHhEcRJFQ_SFX8bAU",
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Saluferstrasse 31, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.86237310000001,
+                "lng": 9.5323575
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.86355957989272,
+                    "lng": 9.533971629892722
+                },
+                "southwest": {
+                    "lat": 46.86085992010727,
+                    "lng": 9.531271970107278
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Ladner Treuhand",
+        "opening_hours": {
+            "open_now": false
+        },
+        "place_id": "ChIJq1pmGFDHhEcRS8T9T7i1l64",
+        "plus_code": {
+            "compound_code": "VG6J+WW Chur",
+            "global_code": "8FRFVG6J+WW"
+        },
+        "reference": "ChIJq1pmGFDHhEcRS8T9T7i1l64",
+        "types": [
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Quaderstrasse 5, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.85238460000001,
+                "lng": 9.531886499999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85366757989272,
+                    "lng": 9.533107679892721
+                },
+                "southwest": {
+                    "lat": 46.85096792010728,
+                    "lng": 9.530408020107277
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Profire AG",
+        "opening_hours": {
+            "open_now": false
+        },
+        "place_id": "ChIJAZx1GHfHhEcRSZwfK9coKA4",
+        "plus_code": {
+            "compound_code": "VG2J+XQ Chur",
+            "global_code": "8FRFVG2J+XQ"
+        },
+        "reference": "ChIJAZx1GHfHhEcRSZwfK9coKA4",
+        "types": [
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Quaderstrasse 19, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8525159,
+                "lng": 9.533292099999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85384267989271,
+                    "lng": 9.534648179892722
+                },
+                "southwest": {
+                    "lat": 46.85114302010727,
+                    "lng": 9.531948520107278
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Arcadia Treuhand AG",
+        "place_id": "ChIJtSw7aXfHhEcRcsnFlK6v0BI",
+        "plus_code": {
+            "compound_code": "VG3M+28 Chur",
+            "global_code": "8FRFVG3M+28"
+        },
+        "reference": "ChIJtSw7aXfHhEcRcsnFlK6v0BI",
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Wiesentalstrasse 126, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8636341,
+                "lng": 9.5308358
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.86497607989272,
+                    "lng": 9.532058529892721
+                },
+                "southwest": {
+                    "lat": 46.86227642010728,
+                    "lng": 9.529358870107277
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Garant Treuhand AG",
+        "place_id": "ChIJP4ZOnJnHhEcRV_sd_sVzVuM",
+        "plus_code": {
+            "compound_code": "VG7J+F9 Chur",
+            "global_code": "8FRFVG7J+F9"
+        },
+        "reference": "ChIJP4ZOnJnHhEcRV_sd_sVzVuM",
+        "types": [
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Albulastrasse 37, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8593566,
+                "lng": 9.520019399999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.86066187989272,
+                    "lng": 9.521454329892723
+                },
+                "southwest": {
+                    "lat": 46.85796222010727,
+                    "lng": 9.51875467010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Conrad + Magnin AG",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 553,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/109433512697668246324\">A Google User</a>"
+                ],
+                "photo_reference": "AeeoHcKFLehTbl5tqH5wedwmdetmS9TAieS0vNJUzUuHo35SfYY2ePS9C271ETAZ1eX-OHjkFq-1LiDnvjSXvB9kuLPlxGd0T1AO613VwnNoe6yC5_0bq9w2Hla8bfBdWdTZ9li6Ngg1pMdbCAMC-4mhAXfEV_lQfupmbK3UhiGVxwCSQjkL4ziGd_WDuQaN0r23O6jGrXqt97xSpHOFHEsw2Q442RuZBq47JwnZG2-OgQ80RxhRq7KLaWIKyWKKcjvvZw6fiYMggLZ13cksbs_7PaBu9LMk2OpM7OxIg03-ORmq07lm5wE",
+                "width": 828
+            }
+        ],
+        "place_id": "ChIJ5V5g1AzHhEcRlNlTqdrGQqE",
+        "plus_code": {
+            "compound_code": "VG59+QX Chur",
+            "global_code": "8FRFVG59+QX"
+        },
+        "rating": 4.1,
+        "reference": "ChIJ5V5g1AzHhEcRlNlTqdrGQqE",
+        "types": [
+            "real_estate_agency",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 19
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Alexanderstrasse 2, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.852593,
+                "lng": 9.5316361
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85379682989272,
+                    "lng": 9.53286597989272
+                },
+                "southwest": {
+                    "lat": 46.85109717010728,
+                    "lng": 9.530166320107277
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "SBC Treuhand AG",
+        "opening_hours": {
+            "open_now": false
+        },
+        "place_id": "ChIJVVYYH3fHhEcRxq2ABUVo3Fc",
+        "plus_code": {
+            "compound_code": "VG3J+2M Chur",
+            "global_code": "8FRFVG3J+2M"
+        },
+        "reference": "ChIJVVYYH3fHhEcRxq2ABUVo3Fc",
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Ottostrasse 29, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8536828,
+                "lng": 9.533608899999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85496077989273,
+                    "lng": 9.53494477989272
+                },
+                "southwest": {
+                    "lat": 46.85226112010728,
+                    "lng": 9.532245120107277
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Capol & Partner AG",
+        "opening_hours": {
+            "open_now": false
+        },
+        "photos": [
+            {
+                "height": 3024,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/105039768549766508503\">Capol &amp; Partner AG</a>"
+                ],
+                "photo_reference": "AeeoHcIl38sVXyvbtwVf7uxP5WVdBZFsCzGIv5Hiz83vlIjUgYpjjKJTNoLQxBPDNL18bx6IuRjR6ucz459cCMYfg4eg0d6YxRpDB4FhDaSXu8fHCCMlKtjIkHe_hz37gZZwftJzLIkHphNHaBV6SOiAjia1xE3LL3G8eZmH7rEkpatY8Pq8bkwLAwkrrvY6719J4retWYywgnQSInpwUL7ciYA711PSinUefDA50v1vClo-tZ9wamAzre30uZ_CzvjgzzJY-tT7rXeadngKGv84aFkZFS_3ysIlglx6vZ0S-9_Sj8oM10A",
+                "width": 4032
+            }
+        ],
+        "place_id": "ChIJ4cojnHfHhEcRizT2tVzjrxM",
+        "plus_code": {
+            "compound_code": "VG3M+FC Chur",
+            "global_code": "8FRFVG3M+FC"
+        },
+        "rating": 4.8,
+        "reference": "ChIJ4cojnHfHhEcRizT2tVzjrxM",
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 4
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Aspermontstrasse 4, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8603852,
+                "lng": 9.529003699999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.86173537989271,
+                    "lng": 9.530354729892721
+                },
+                "southwest": {
+                    "lat": 46.85903572010727,
+                    "lng": 9.527655070107278
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Merkur Treuhand AG Chur",
+        "place_id": "ChIJZUJWxp7HhEcRm6T07Y3G1Jo",
+        "plus_code": {
+            "compound_code": "VG6H+5M Chur",
+            "global_code": "8FRFVG6H+5M"
+        },
+        "reference": "ChIJZUJWxp7HhEcRm6T07Y3G1Jo",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Comercialstrasse 20, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8476065,
+                "lng": 9.5102852
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.84883987989272,
+                    "lng": 9.511636329892724
+                },
+                "southwest": {
+                    "lat": 46.84614022010728,
+                    "lng": 9.50893667010728
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "SORENO Treuhand AG",
+        "place_id": "ChIJ49BbFqTHhEcRO3w_FnCSDew",
+        "plus_code": {
+            "compound_code": "RGX6+24 Chur",
+            "global_code": "8FRFRGX6+24"
+        },
+        "reference": "ChIJ49BbFqTHhEcRO3w_FnCSDew",
+        "types": [
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Obere Plessurstrasse 39, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.84965529999999,
+                "lng": 9.5268423
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85101912989272,
+                    "lng": 9.52819917989272
+                },
+                "southwest": {
+                    "lat": 46.84831947010728,
+                    "lng": 9.525499520107276
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Lutz Treuhand AG",
+        "place_id": "ChIJ36jd0HPHhEcRNmdyNVu8hAM",
+        "plus_code": {
+            "compound_code": "RGXG+RP Chur",
+            "global_code": "8FRFRGXG+RP"
+        },
+        "reference": "ChIJ36jd0HPHhEcRNmdyNVu8hAM",
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Comercialstrasse 34, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8464188,
+                "lng": 9.5088565
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.84776732989272,
+                    "lng": 9.510314979892721
+                },
+                "southwest": {
+                    "lat": 46.84506767010728,
+                    "lng": 9.507615320107277
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Scherrer Partner Chur AG",
+        "opening_hours": {
+            "open_now": false
+        },
+        "place_id": "ChIJ0zNE-dvHhEcRKYCtshMkqA0",
+        "plus_code": {
+            "compound_code": "RGW5+HG Chur",
+            "global_code": "8FRFRGW5+HG"
+        },
+        "reference": "ChIJ0zNE-dvHhEcRKYCtshMkqA0",
+        "types": [
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8572047,
+                "lng": 9.526699899999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85846122989272,
+                    "lng": 9.52784167989272
+                },
+                "southwest": {
+                    "lat": 46.85576157010728,
+                    "lng": 9.525142020107277
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Hafner Treuhand AG",
+        "place_id": "ChIJfdXWzJ_HhEcR55HkRnx_FGs",
+        "plus_code": {
+            "compound_code": "VG4G+VM Chur",
+            "global_code": "8FRFVG4G+VM"
+        },
+        "reference": "ChIJfdXWzJ_HhEcR55HkRnx_FGs",
+        "types": [
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Bahnhofpl. 7, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8535697,
+                "lng": 9.5309154
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85491487989272,
+                    "lng": 9.53210552989272
+                },
+                "southwest": {
+                    "lat": 46.85221522010728,
+                    "lng": 9.529405870107276
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "TRM, Treuhand Reto Müller, Eidg. dipl. Treuhandexperte",
+        "place_id": "ChIJaxCtV3HHhEcRypykw6vJ118",
+        "plus_code": {
+            "compound_code": "VG3J+C9 Chur",
+            "global_code": "8FRFVG3J+C9"
+        },
+        "reference": "ChIJaxCtV3HHhEcRypykw6vJ118",
+        "types": [
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Hinterm Bach 40, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8454258,
+                "lng": 9.5335089
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.84675817989272,
+                    "lng": 9.534847279892722
+                },
+                "southwest": {
+                    "lat": 46.84405852010728,
+                    "lng": 9.532147620107278
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Lori Treuhand AG",
+        "place_id": "ChIJvUFAOWXHhEcRuhEvRQ-tLL8",
+        "plus_code": {
+            "compound_code": "RGWM+5C Chur",
+            "global_code": "8FRFRGWM+5C"
+        },
+        "reference": "ChIJvUFAOWXHhEcRuhEvRQ-tLL8",
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Alexanderstrasse 2, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.852593,
+                "lng": 9.5316361
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85379682989272,
+                    "lng": 9.53286597989272
+                },
+                "southwest": {
+                    "lat": 46.85109717010728,
+                    "lng": 9.530166320107277
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Veledes Treuhand AG",
+        "place_id": "ChIJVVYYH3fHhEcR4jDC0LPc13Y",
+        "plus_code": {
+            "compound_code": "VG3J+2M Chur",
+            "global_code": "8FRFVG3J+2M"
+        },
+        "reference": "ChIJVVYYH3fHhEcR4jDC0LPc13Y",
+        "types": [
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Ringstrasse 18, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8511755,
+                "lng": 9.5138927
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85247252989272,
+                    "lng": 9.515072279892722
+                },
+                "southwest": {
+                    "lat": 46.84977287010728,
+                    "lng": 9.512372620107278
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Hunger & Partner Treuhand",
+        "place_id": "ChIJf4wH7A7HhEcRpoKMAbHdWCE",
+        "plus_code": {
+            "compound_code": "VG27+FH Chur",
+            "global_code": "8FRFVG27+FH"
+        },
+        "reference": "ChIJf4wH7A7HhEcRpoKMAbHdWCE",
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Engadinstrasse 2, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8521768,
+                "lng": 9.5286314
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85352557989273,
+                    "lng": 9.529994629892721
+                },
+                "southwest": {
+                    "lat": 46.85082592010728,
+                    "lng": 9.527294970107278
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Gadient Treuhand",
+        "place_id": "ChIJDVMXpHbHhEcRkw2I39G6j3U",
+        "plus_code": {
+            "compound_code": "VG2H+VC Chur",
+            "global_code": "8FRFVG2H+VC"
+        },
+        "reference": "ChIJDVMXpHbHhEcRkw2I39G6j3U",
+        "types": [
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Goldgasse 8, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8486694,
+                "lng": 9.530315
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85002472989272,
+                    "lng": 9.531695779892722
+                },
+                "southwest": {
+                    "lat": 46.84732507010727,
+                    "lng": 9.528996120107278
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Lilo Forum Treuhand AG",
+        "place_id": "ChIJ2yk9VHDHhEcR2BMWmB87hSs",
+        "plus_code": {
+            "compound_code": "RGXJ+F4 Chur",
+            "global_code": "8FRFRGXJ+F4"
+        },
+        "reference": "ChIJ2yk9VHDHhEcR2BMWmB87hSs",
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Steinbockstrasse 8, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8523915,
+                "lng": 9.5296679
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85380307989272,
+                    "lng": 9.530606429892723
+                },
+                "southwest": {
+                    "lat": 46.85110342010728,
+                    "lng": 9.527906770107279
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Refina Treuhand",
+        "place_id": "ChIJ7Zt6v3bHhEcRSQzN0vh2u18",
+        "plus_code": {
+            "compound_code": "VG2H+XV Chur",
+            "global_code": "8FRFVG2H+XV"
+        },
+        "reference": "ChIJ7Zt6v3bHhEcRSQzN0vh2u18",
+        "types": [
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Quaderstrasse 19, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.852585,
+                "lng": 9.5333656
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85384492989272,
+                    "lng": 9.534645079892721
+                },
+                "southwest": {
+                    "lat": 46.85114527010727,
+                    "lng": 9.531945420107277
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "SimplySteuer",
+        "opening_hours": {
+            "open_now": true
+        },
+        "photos": [
+            {
+                "height": 3376,
+                "html_attributions": [
+                    "<a href=\"https://maps.google.com/maps/contrib/112843422078458950582\">A Google User</a>"
+                ],
+                "photo_reference": "AeeoHcIwHbnpr67oKb-gIqgdi7j4kUjv31w1nGF9z6GXfZHrL7IP1wkVeMBu0LXKFYhDPO4JkpamiA-NV7rZCwnZiZCT36PzlPbTAjaxSzmDAIHNnt_d9nfpcd-IHm47t_uTdK2JPlihaBE2qQxa1iv8LPtbAk3D-fgnIhkumRd7QrbhniSbfKLPMjbS9F_m44GbRFn16r-0kjBa-h2OLbbuyjqTAMITAjeCk5l8IN1lxydL-JAa_R79KPK_vwiSb4GdqCPSgEFXd5f7dqNT871KCVJyFQHzFvSkEFXowzIlRPlx__2vgQE",
+                "width": 6000
+            }
+        ],
+        "place_id": "ChIJfwqt2KXHhEcRBEeGpVhWjOU",
+        "plus_code": {
+            "compound_code": "VG3M+28 Chur",
+            "global_code": "8FRFVG3M+28"
+        },
+        "rating": 4.9,
+        "reference": "ChIJfwqt2KXHhEcRBEeGpVhWjOU",
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ],
+        "user_ratings_total": 139
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Hartbertstrasse 9, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8530917,
+                "lng": 9.532231
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85445747989272,
+                    "lng": 9.533662979892721
+                },
+                "southwest": {
+                    "lat": 46.85175782010727,
+                    "lng": 9.530963320107277
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Confina Revisions AG",
+        "place_id": "ChIJA419BXfHhEcRUdTaDfbe8Rg",
+        "plus_code": {
+            "compound_code": "VG3J+6V Chur",
+            "global_code": "8FRFVG3J+6V"
+        },
+        "reference": "ChIJA419BXfHhEcRUdTaDfbe8Rg",
+        "types": [
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Engadinstrasse 30, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8506374,
+                "lng": 9.528735
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85199057989271,
+                    "lng": 9.530122279892721
+                },
+                "southwest": {
+                    "lat": 46.84929092010727,
+                    "lng": 9.527422620107277
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bank-71.png",
+        "icon_background_color": "#909CE1",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bank-intl_pinlet",
+        "name": "Zensor Treuhand Chur AG",
+        "place_id": "ChIJm3I2RHHHhEcRGXJPpodbN5Y",
+        "plus_code": {
+            "compound_code": "VG2H+7F Chur",
+            "global_code": "8FRFVG2H+7F"
+        },
+        "reference": "ChIJm3I2RHHHhEcRGXJPpodbN5Y",
+        "types": [
+            "bank",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Industriestrasse 21, 7000 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8573831,
+                "lng": 9.509538899999999
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.85877532989272,
+                    "lng": 9.510700879892722
+                },
+                "southwest": {
+                    "lat": 46.85607567010728,
+                    "lng": 9.508001220107278
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Bärlocher Treuhand GmbH",
+        "place_id": "ChIJwcjTLnHHhEcR4ZcNvY7uJW8",
+        "plus_code": {
+            "compound_code": "VG45+XR Chur",
+            "global_code": "8FRFVG45+XR"
+        },
+        "reference": "ChIJwcjTLnHHhEcR4ZcNvY7uJW8",
+        "types": [
+            "accounting",
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    },
+    {
+        "business_status": "OPERATIONAL",
+        "formatted_address": "Kasernenstrasse 97, 7002 Chur, Switzerland",
+        "geometry": {
+            "location": {
+                "lat": 46.8465795,
+                "lng": 9.519269
+            },
+            "viewport": {
+                "northeast": {
+                    "lat": 46.84806142989272,
+                    "lng": 9.520303079892722
+                },
+                "southwest": {
+                    "lat": 46.84536177010727,
+                    "lng": 9.517603420107278
+                }
+            }
+        },
+        "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+        "icon_background_color": "#7B9EB0",
+        "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+        "name": "Camichel Treuhand",
+        "place_id": "ChIJE5KbpBLHhEcR_JqMaaZu3Ps",
+        "plus_code": {
+            "compound_code": "RGW9+JP Chur",
+            "global_code": "8FRFRGW9+JP"
+        },
+        "reference": "ChIJE5KbpBLHhEcR_JqMaaZu3Ps",
+        "types": [
+            "finance",
+            "point_of_interest",
+            "establishment"
+        ]
+    }
+]
