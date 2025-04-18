@@ -25,3 +25,4 @@ branca
 pytest
 flake8
 chardet
+rapidfuzz

@@ -5,9 +5,10 @@ import geopandas as gpd
 import pandas as pd
 import json
 import folium
-from folium.plugins import HeatMap
+from folium.plugins import HeatMap, MarkerCluster
 import numpy as np
 import os
+from shapely.geometry import Point
 
 app = Flask(__name__)
 
@@ -23,11 +24,28 @@ def load_publicity_locations():
     publicity = gpd.read_file('data/publicity_locations.geojson')
     return publicity
 
-
+def load_competitors():
+    """Load competitor locations from JSON file"""
+    with open('data/competitors.json') as f:
+        competitors = json.load(f)
+    
+    # Convert to GeoDataFrame
+    competitor_list = []
+    for comp in competitors:
+        competitor_list.append({
+            'name': comp['name'],
+            'address': comp['formatted_address'],
+            'type': ', '.join(comp['types']),
+            'rating': comp.get('rating', None),
+            'geometry': Point(comp['geometry']['location']['lng'], 
+                             comp['geometry']['location']['lat'])
+        })
+    
+    return gpd.GeoDataFrame(competitor_list, crs="EPSG:4326")
 
 # ----- Visualization Functions -----
 
-def create_heatmap(data=None, weight_column=None, hotspots=None, publicity=None):
+def create_heatmap(data=None, weight_column=None, hotspots=None, publicity=None, competitors=None):
     """Create a base map with German-speaking Swiss municipalities and optional layers."""
     # Create a base map centered on Switzerland
     m = folium.Map(location=[46.8, 8.2], zoom_start=8)
@@ -117,6 +135,27 @@ def create_heatmap(data=None, weight_column=None, hotspots=None, publicity=None)
                 ).add_to(fg_publicity)
             fg_publicity.add_to(m)
 
+            # Add competitor locations
+            if competitors is not None:
+                fg_competitors = folium.FeatureGroup(name="Competitors")
+                competitor_cluster = MarkerCluster(name="Competitor Cluster")
+                for _, row in competitors.iterrows():
+                    folium.CircleMarker(
+                        location=[row.geometry.y, row.geometry.x],
+                        radius=5,
+                        color='purple',
+                        fill=True,
+                        fill_opacity=0.7,
+                        popup=f"""
+                            <b>{row['name']}</b><br>
+                            Address: {row['address']}<br>
+                            Type: {row['type']}<br>
+                            Rating: {row['rating'] if pd.notna(row['rating']) else 'N/A'}
+                        """
+                    ).add_to(competitor_cluster)
+                competitor_cluster.add_to(fg_competitors)
+                fg_competitors.add_to(m)
+
         # Layer control
         folium.LayerControl().add_to(m)
 
@@ -140,9 +179,10 @@ def get_map():
     # Load hotspot and publicity data
     hotspots = load_hotspots()
     publicity = load_publicity_locations()
+    competitors = load_competitors()
     
     # Create map with layers
-    m = create_heatmap(hotspots=hotspots, publicity=publicity)
+    m = create_heatmap(hotspots=hotspots, publicity=publicity, competitors=competitors)
     
     # Save map to HTML and return it
     map_path = 'templates/maps/german_municipalities_map.html'
