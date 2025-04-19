@@ -1,3 +1,4 @@
+# main.py - Flask application for the geomarketing platform
 from flask import Flask, render_template, request, jsonify
 import geopandas as gpd
 import pandas as pd
@@ -13,7 +14,7 @@ import pandas as pd
 app = Flask(__name__)
 
 def load_and_merge_income_data(municipalities):
-    """Load income data and match with municipalities using the last income value for similar names."""
+    """Load income data and merge with municipalities using fuzzy matching, ignoring invalid income values."""
     try:
         # Load income data
         income_df = pd.read_csv('data/income_by_municipality_utf8.csv', header=None)
@@ -22,21 +23,11 @@ def load_and_merge_income_data(municipalities):
         # Clean income data: remove quotes and commas
         income_df['income'] = income_df['income'].str.replace('"', '').str.replace(',', '')
         
-        # Log raw income data for debugging
-        print(f"Raw income sample: {income_df['income'].head().tolist()}")
-        
-        # Filter out rows where income is non-numeric
-        income_df = income_df[income_df['income'].str.isnumeric()]
+        # Filter out rows where income is non-numeric (e.g., 'X')
+        income_df = income_df[income_df['income'].str.replace('.', '', 1).str.isnumeric()]
         
         # Convert income to float
         income_df['income'] = income_df['income'].astype(float)
-        
-        # Log basic statistics for debugging
-        print(f"Income data loaded: {len(income_df)} rows")
-        print(f"Income range: min={income_df['income'].min()}, max={income_df['income'].max()}")
-        
-        # Keep only the last row for each municipality name
-        income_df = income_df.sort_values(by=['municipality_name', 'id']).groupby('municipality_name').last().reset_index()
         
         # Normalize income for coloring (scale between 0 and 1)
         income_min = income_df['income'].min()
@@ -46,41 +37,25 @@ def load_and_merge_income_data(municipalities):
             if income_max != income_min else 0
         )
         
-        # Log normalization results
-        print(f"Normalized income range: min={income_df['income_normalized'].min()}, max={income_df['income_normalized'].max()}")
-        
         # Fuzzy matching to align municipality names
-        municipality_names = municipalities['NAME'].tolist()
-        def match_name(x):
-            if pd.notna(x):
-                match = process.extractOne(x, municipality_names, score_cutoff=80)
-                return match[0] if match else None
-            return None
+        municipality_names = municipalities['Gemeindename'].tolist()
+        income_df['matched_name'] = income_df['municipality_name'].apply(
+            lambda x: process.extractOne(x, municipality_names)[0] if pd.notna(x) else None
+        )
         
-        income_df['matched_name'] = income_df['municipality_name'].apply(match_name)
-        
-        # Log matching results
-        unmatched = income_df[income_df['matched_name'].isna()]
-        if not unmatched.empty:
-            print(f"Warning: {len(unmatched)} municipalities could not be matched: {unmatched['municipality_name'].tolist()}")
-        
-        # Merge with municipalities GeoDataFrame using matched names
+        # Merge with municipalities GeoDataFrame
         merged = municipalities.merge(
             income_df[['matched_name', 'income', 'income_normalized']],
-            left_on='NAME',
+            left_on='Gemeindename',
             right_on='matched_name',
             how='left'
         )
-        
-        # Log merge results
-        missing_income = merged[merged['income'].isna()]
-        if not missing_income.empty:
-            print(f"Warning: {len(missing_income)} municipalities have no income data: {missing_income['NAME'].tolist()}")
         
         return merged
     
     except Exception as e:
         print(f"Error loading or merging income data: {e}")
+        # Return municipalities without income data to prevent map failure
         return municipalities
 
 def load_hotspots():
@@ -120,37 +95,34 @@ def create_heatmap(data=None, weight_column=None, hotspots=None, publicity=None,
     m = folium.Map(location=[46.8, 8.2], zoom_start=8)
 
     try:
-        # Load municipalities
-        gdb_path = 'data/swissBOUNDARIES3D_1_4_LV95_LN02.gdb'
-        municipalities = gpd.read_file(gdb_path, layer='TLM_HOHEITSGEBIET')
-        swiss_municipalities = municipalities[municipalities['ICC'] == 'CH']
+        # Load municipalities from CSV
+        csv_path = 'data/alle_deutschschweiz_gemeinden.csv'
+        municipalities_df = pd.read_csv(csv_path)
 
-        # Filter for German-speaking municipalities
-        bfs_ranges = [
-            (1, 299), (301, 999), (1001, 1199), (1201, 1299), (1301, 1399), (1401, 1499), 
-            (1501, 1599), (1601, 1699), (1701, 1999), (2401, 2699), (2701, 2759), 
-            (2761, 2899), (2901, 2999), (3001, 3099), (3101, 3199), (3201, 3499), 
-            (3501, 3999), (4001, 4399), (4401, 4999),
-        ]
+        # Create geometry from Longitude and Latitude
+        municipalities_df['geometry'] = municipalities_df.apply(
+            lambda row: Point(row['Longitude'], row['Latitude']), axis=1
+        )
 
-        german_filter = False
-        for start, end in bfs_ranges:
-            german_filter = german_filter | ((swiss_municipalities['BFS_NUMMER'] >= start) & 
-                                             (swiss_municipalities['BFS_NUMMER'] <= end))
+        # Convert to GeoDataFrame
+        german_municipalities = gpd.GeoDataFrame(
+            municipalities_df,
+            geometry='geometry',
+            crs='EPSG:4326'
+        )
 
-        # Apply the filter to get German-speaking municipalities
-        german_municipalities = swiss_municipalities[german_filter].copy()
-        
         # Keep only the needed columns
-        german_municipalities = german_municipalities[['BFS_NUMMER', 'NAME', 'KANTONSNUMMER', 'geometry']].copy()
-        german_municipalities['BFS_NUMMER'] = german_municipalities['BFS_NUMMER'].astype(str)
+        german_municipalities = german_municipalities[
+            ['BFS-Nr', 'Gemeindename', 'Kantonskürzel', 'geometry']
+        ].copy()
+        german_municipalities['BFS-Nr'] = german_municipalities['BFS-Nr'].astype(str)
 
         # Merge with income data
         german_municipalities = load_and_merge_income_data(german_municipalities)
 
-        # Define columns for GeoJson based on available data
-        geojson_columns = ['BFS_NUMMER', 'NAME', 'KANTONSNUMMER', 'geometry']
-        tooltip_fields = ['BFS_NUMMER', 'NAME', 'KANTONSNUMMER']
+        # Define columns for GeoJSON based on available data
+        geojson_columns = ['BFS-Nr', 'Gemeindename', 'Kantonskürzel', 'geometry']
+        tooltip_fields = ['BFS-Nr', 'Gemeindename', 'Kantonskürzel']
         tooltip_aliases = ['BFS Number:', 'Name:', 'Canton:']
 
         # Check if income data is available
@@ -159,39 +131,34 @@ def create_heatmap(data=None, weight_column=None, hotspots=None, publicity=None,
             tooltip_fields.append('income')
             tooltip_aliases.append('Income (CHF):')
 
-        # Add municipalities with income-based coloring
-        folium.GeoJson(
-            german_municipalities[geojson_columns],
-            style_function=lambda x: {
-                'fillColor': (
-                    # Continuous red gradient: light red (#FF9999) to dark red (#8B0000)
-                    '#{:02x}0000'.format(
-                        int(255 - (x['properties']['income_normalized'] * (255 - 139)))  # 139 for #8B0000
-                    ) if pd.notna(x['properties'].get('income_normalized')) else '#D3D3D3'
-                ),
-                'fillOpacity': 0.7,  # Fixed opacity for consistency
-                'color': '#3388ff',  # Border color
-                'weight': 1,
-            },
-            name='German-Speaking Municipalities',
-            tooltip=folium.features.GeoJsonTooltip(
-                fields=tooltip_fields,
-                aliases=tooltip_aliases,
-                localize=True
-            )
-        ).add_to(m)
-
-        # Add continuous color scale legend
-        if 'income' in german_municipalities.columns:
-            income_min = german_municipalities['income'].min()
-            income_max = german_municipalities['income'].max()
-            colormap = folium.LinearColormap(
-                colors=['#FF9999', '#FF3333', '#8B0000'],  # Light to dark red
-                vmin=income_min,
-                vmax=income_max,
-                caption='Income (CHF)'
-            )
-            colormap.add_to(m)
+        # Add municipalities as CircleMarkers (since CSV provides points)
+        fg_municipalities = folium.FeatureGroup(name="German-Speaking Municipalities")
+        for _, row in german_municipalities.iterrows():
+            if pd.notna(row.geometry):
+                folium.CircleMarker(
+                    location=[row.geometry.y, row.geometry.x],
+                    radius=5,
+                    color='#3388ff',
+                    fill=True,
+                    fill_color=(
+                        '#FF0000' if pd.notna(row.get('income_normalized')) else '#D3D3D3'
+                    ),
+                    fill_opacity=(
+                        row['income_normalized'] * 0.7 + 0.2
+                        if pd.notna(row.get('income_normalized')) else 0.2
+                    ),
+                    weight=1,
+                    popup=folium.Popup(
+                        f"""
+                        <b>{row['Gemeindename']}</b><br>
+                        BFS Number: {row['BFS-Nr']}<br>
+                        Canton: {row['Kantonskürzel']}<br>
+                        Income (CHF): {row['income'] if pd.notna(row.get('income')) else 'N/A'}
+                        """,
+                        max_width=250
+                    )
+                ).add_to(fg_municipalities)
+        fg_municipalities.add_to(m)
 
         # Add hotspots
         if hotspots is not None:
@@ -258,7 +225,7 @@ def create_heatmap(data=None, weight_column=None, hotspots=None, publicity=None,
         folium.LayerControl().add_to(m)
 
     except Exception as e:
-        print(f"Error loading municipalities from geodatabase: {e}")
+        print(f"Error processing municipalities from CSV: {e}")
         import traceback
         traceback.print_exc()
 
